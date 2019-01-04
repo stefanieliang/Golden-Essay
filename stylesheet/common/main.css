@@ -652,3 +652,16 @@
     color:rgba(255,255,255,1);
     vertical-align: bottom;
 }
+/*service*/
+.join-us{
+    margin-top: 0.9rem;
+    width:100%;
+    height:0.8rem;
+    background:rgba(151,185,255,1);
+    text-align: center;
+    position: fixed;
+    font-size:0.2rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(255,255,255,1);
+}
