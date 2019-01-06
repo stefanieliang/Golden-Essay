@@ -725,16 +725,12 @@
 /*order*/
 .order{
     width: 100%;
-    /*height: 20rem;*/
-    background: url("../../images/index/index_bj7.png")center bottom  no-repeat;
-    background-size: 100% 3.8rem;
 }
 .order .order-content{
     margin-top: 1.6rem;
 }
 .order .order-content .order-content-left{
     width: 7rem;
-    height:6.7rem;
 }
 .order .order-content .order-content-left .order-content-left-item>p{
     font-size:0.2rem;
@@ -770,31 +766,128 @@
     font-weight:bold;
     color:rgba(226,32,32,1);
 }
-input{
-    font-size:0.14rem;
-    font-family:MicrosoftYaHei;
-    font-weight:400;
-    color:rgba(51,51,51,1);
-}
-.layui-form-select .layui-edge{
-    right: 0.2rem;
-}
-.layui-inline .layui-input, .layui-textarea {
-    width:3.2rem;
-    height:0.4rem;
-    background:rgba(233,240,255,1);
-    border-radius:0.05rem;
-}
 .order .order-content .order-content-left .order-content-left-item .layui-form-label img{
     width:0.14rem;
     height:0.14rem;
     opacity:0.8;
 }
+/*---------------------form--------------------------------  */
+.layui-form-selected dl{
+    font-size:0.14rem;
+}
+.layui-input, .layui-textarea, .layui-upload-drag{
+    font-size:0.14rem;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    background:rgba(233,240,255,1);
+    border-radius:0.05rem;
+    border: 0;
+}
+.layui-upload-drag{
+    width: 100%;
+    text-align: left;
+    padding-top: 0.62rem;
+    padding-bottom: 0.62rem;
+    width: 6.5rem;
+}
+.layui-upload-drag span{
+    color: #EAF6FD;
+    padding: 0.13rem 0.34rem;
+    background:rgba(74,134,255,1);
+    opacity:0.8;
+    border-radius:0.2rem;
+}
+.layui-form-item .layui-inline{
+    float: left;
+    margin-right: 0;
+}
+.layui-form-select .layui-edge{
+    right: 0.2rem;
+}
+.layui-form-item .layui-input-inline {
+    width: 3rem;
+    height:0.4rem;
+    margin-right: 0.5rem;
+}
+.layui-form-item .layui-input-block{
+    margin-right: 0.5rem;
+}
+.layui-form-item .layui-upload-drag{
+    margin-right: 0.5rem;
+}
+.layui-input-block,.layui-upload-drag{
+    margin-left: 0;
+}
+/*---------------------form--------------------------------  */
 .order .order-content .order-content-right{
-    width:3.2rem;
-    height:6.7rem;
+    width:4rem;
     background:rgba(74,134,255,1);
     box-shadow:0rem 0.1rem 0.3rem 0rem rgba(186,193,208,1);
     opacity:0.8;
     border-radius:0.1rem;
+}
+.order .order-content .order-content-right div:nth-child(2n+1) p{
+    font-size:0.18rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(255,255,255,1);
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+.order .order-content .order-content-right .count{
+    float: right;
+    color:rgba(254,205,87,1);
+}
+.order .order-content .order-content-right div:nth-child(1) table{
+    width: 100%;
+}
+.order .order-content .order-content-right div:nth-child(1) td{
+    font-size:0.14rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(255,255,255,1);
+    line-height: 0.4rem;
+}
+.order .order-content .order-content-right div:nth-child(1) tr td:first-child{
+    text-align: left;
+}
+.order .order-content .order-content-right div:nth-child(1) tr td:last-child{
+    text-align: right;
+}
+.order .order-content .order-content-right div:nth-child(2n+1){
+    padding: 0.1rem 0.3rem 0rem 0.3rem;
+}
+.order .order-content .order-content-right .pay{
+    width:100%;
+    height:0.8rem;
+    background:rgba(254,205,87,1);
+}
+.order .order-content .order-content-right div:nth-child(3) .layui-form{
+    padding-left: 0;
+    padding-top: 0.2rem;
+}
+.order .order-content .order-content-right div:nth-child(3) .layui-form span{
+    font-size:0.12rem;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    line-height:0.24rem;
+}
+.order .order-content .order-content-right div:nth-child(3) p span{
+    width:100%;
+    height:0.4rem;
+    line-height: 0.4rem;
+    background:rgba(255,255,255,1);
+    border-radius:0.05rem;
+    font-size:0.16rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(74,134,255,1);
+    display: block;
+    text-align: center;
+}
+.order .order-footer img{
+    width: 100%;
+    height: 3.8rem;
 }

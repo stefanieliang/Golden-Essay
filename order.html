@@ -30,7 +30,7 @@
     <div class="join-us">
         <span>更多</span>&nbsp;&nbsp;<span>福利</span>&nbsp;&nbsp;<span>等你来拿</span>，马上邀请好友加入吧！
     </div>
-    <div class="index-container">
+    <div class="index-container" style="height: auto">
         <div class="index-container-nav">
             <div class="index-container-nav-left fl">
                 <img src="images/index/logo.jpg" class="logo"/>
@@ -58,17 +58,16 @@
                                     <label class="layui-form-label">学术水平&nbsp;&nbsp;<img src="images/order/questionMark.png"/></label>
                                     <div class="layui-input-inline">
                                         <select name="quiz3">
-                                            <option value="">请选择县/区</option>
-                                            <option value="西湖区">西湖区</option>
-                                            <option value="余杭区">余杭区</option>
-                                            <option value="拱墅区">临安市</option>
+                                            <option value=""></option>
                                         </select>
                                     </div>
                                 </div>
                                 <div class="layui-inline">
                                     <label class="layui-form-label"><span>*</span>&nbsp;&nbsp;服务类型&nbsp;&nbsp;<img src="images/order/questionMark.png"/></label>
                                     <div class="layui-input-inline">
-                                        <input type="text" name="email" lay-verify="email" autocomplete="off" class="layui-input">
+                                        <select name="quiz3">
+                                            <option value=""></option>
+                                        </select>
                                     </div>
                                 </div>
                             </div>
@@ -88,7 +87,9 @@
                                 <div class="layui-inline">
                                     <label class="layui-form-label">交付时间&nbsp;&nbsp;<img src="images/order/questionMark.png"/></label>
                                     <div class="layui-input-inline">
-                                        <input type="text" name="email" lay-verify="email" autocomplete="off" class="layui-input">
+                                        <select name="quiz3">
+                                            <option value="">2018年12月27号</option>
+                                        </select>
                                     </div>
                                 </div>
                             </div>
@@ -102,17 +103,16 @@
                                     <label class="layui-form-label">引文风格&nbsp;&nbsp;<img src="images/order/questionMark.png"/></label>
                                     <div class="layui-input-inline">
                                         <select name="quiz3">
-                                            <option value="">请选择县/区</option>
-                                            <option value="西湖区">西湖区</option>
-                                            <option value="余杭区">余杭区</option>
-                                            <option value="拱墅区">临安市</option>
+                                            <option value=""></option>
                                         </select>
                                     </div>
                                 </div>
                                 <div class="layui-inline">
-                                    <label class="layui-form-label">引文风格&nbsp;&nbsp;<img src="images/order/questionMark.png"/></label>
+                                    <label class="layui-form-label"><span>*</span>&nbsp;&nbsp;参考文献数目&nbsp;&nbsp;<img src="images/order/questionMark.png"/></label>
                                     <div class="layui-input-inline">
-                                        <input type="text" name="email" lay-verify="email" autocomplete="off" class="layui-input">
+                                        <select name="quiz3">
+                                            <option value=""></option>
+                                        </select>
                                     </div>
                                 </div>
                             </div>
@@ -125,14 +125,19 @@
                             <div class="layui-form-item layui-form-text">
                                 <label class="layui-form-label">订单要求&nbsp;&nbsp;<img src="images/order/questionMark.png"/></label>
                                 <div class="layui-input-block">
-                                    <textarea placeholder="请输入内容" class="layui-textarea"></textarea>
+                                    <textarea placeholder="
+为了写手更准确地理解您的需求，请务必用英文填写！
+
+
+请简明扼要的填写您认为必要的信息。
+如：图书馆数据库访问信息、稿件质量特殊要求（如无特殊要求，稿件交付质量将默认B及以上）等。
+                        " class="layui-textarea"></textarea>
                                 </div>
                             </div>
                             <div class="layui-form-item layui-form-text">
                                 <label class="layui-form-label">上传文件&nbsp;&nbsp;<img src="images/order/questionMark.png"/></label>
                                 <div class="layui-upload-drag" id="test10">
-                                    <i class="layui-icon"></i>
-                                    <p>点击上传，或将文件拖拽到此处</p>
+                                    <p><span>Browse</span>&nbsp;&nbsp;or&nbsp;&nbsp;Drag & drop your files heer</p>
                                 </div>
                             </div>
                             <div class="layui-form-item">
@@ -145,7 +150,9 @@
                                 <div class="layui-inline">
                                     <label class="layui-form-label">偏好写手&nbsp;&nbsp;<img src="images/order/questionMark.png"/></label>
                                     <div class="layui-input-inline">
-                                        <input type="text" name="email" lay-verify="email" autocomplete="off" class="layui-input">
+                                        <select name="quiz3">
+                                            <option value=""></option>
+                                        </select>
                                     </div>
                                 </div>
                             </div>
@@ -154,19 +161,74 @@
                 </form>
             </div>
             <div class="order-content-right fr">
-
+                <div>
+                    <p>课程名称</p>
+                    <p>学术水平（yrs 1-2）</p>
+                    <p>服务类型</p>
+                    <hr>
+                    <table id="payTable">
+                        <tr>
+                            <td>Pages * 1</td>
+                            <td>$ 13.00</td>
+                        </tr>
+                        <tr>
+                            <td>Slide * 3</td>
+                            <td>$ 6.5 </td>
+                        </tr>
+                        <tr>
+                            <td>Chart * 1</td>
+                            <td>$ 6.5</td>
+                        </tr>
+                        <tr>
+                            <td>折扣码</td>
+                            <td>满200-20</td>
+                        </tr>
+                    </table>
+                    <hr>
+                    <p><span>总价</span><span class="count">-$ 0.00</span></p>
+                </div>
+                <div class="pay layui-form">
+                    <div class="layui-input-inline">
+                        <select name="quiz3">
+                            <option value="">
+                                <img src="images/order/Paypal.png" height="20" width="85"/>
+                            </option>
+                        </select>
+                    </div>
+                    <img src="" alt="">
+                </div>
+                <div>
+                    <div class="layui-form">
+                        <input type="checkbox" name="" title="同意Goldenessay 用户条款及隐私协议" lay-skin="primary">
+                    </div>
+                    <p><span>To Checkout</span></p>
+                </div>
             </div>
         </div>
+    </div>
+    <div class="order-footer">
+        <img src="images/index/index_bj7.png"/>
     </div>
 </div>
 <script src="layui-v2.4.5/layui.js"></script>
 <script>
-    layui.use(['form', 'layedit', 'laydate'], function() {
+    layui.use(['form', 'layedit', 'laydate','upload'], function() {
             var form = layui.form
                 , layer = layui.layer
                 , layedit = layui.layedit
                 , laydate = layui.laydate;
 
+            var $ = layui.jquery
+                , upload = layui.upload;
+
+            //拖拽上传
+            upload.render({
+                elem: '#test10'
+                , url: '/upload/'
+                , done: function (res) {
+                    console.log(res)
+                }
+            });
     });
 </script>
 
