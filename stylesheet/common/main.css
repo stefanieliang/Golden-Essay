@@ -732,3 +732,69 @@
 .order .order-content{
     margin-top: 1.6rem;
 }
+.order .order-content .order-content-left{
+    width: 7rem;
+    height:6.7rem;
+}
+.order .order-content .order-content-left .order-content-left-item>p{
+    font-size:0.2rem;
+    font-family:MicrosoftYaHei-Bold;
+    font-weight:bold;
+    color:rgba(74,134,255,1);
+}
+.order .order-content .order-content-left .order-content-left-item>p span{
+    font-size:0.24rem;
+    font-family:MicrosoftYaHei-Bold;
+    font-weight:bold;
+    font-style:italic;
+    color:rgba(74,134,255,1);
+}
+.order .order-content .order-content-left .order-content-left-item{
+    margin-bottom: 0.9rem;
+}
+.order .order-content .order-content-left .layui-form-label{
+    font-size:0.16rem;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(74,134,255,1);
+    padding: 0;
+    float: none;
+    margin-top: 0.49rem;
+    margin-bottom: 0.19rem;
+    text-align: left;
+    vertical-align: unset;
+}
+.order .order-content .order-content-left .layui-form-label span{
+    font-size:0.18rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(226,32,32,1);
+}
+input{
+    font-size:0.14rem;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+}
+.layui-form-select .layui-edge{
+    right: 0.2rem;
+}
+.layui-inline .layui-input, .layui-textarea {
+    width:3.2rem;
+    height:0.4rem;
+    background:rgba(233,240,255,1);
+    border-radius:0.05rem;
+}
+.order .order-content .order-content-left .order-content-left-item .layui-form-label img{
+    width:0.14rem;
+    height:0.14rem;
+    opacity:0.8;
+}
+.order .order-content .order-content-right{
+    width:3.2rem;
+    height:6.7rem;
+    background:rgba(74,134,255,1);
+    box-shadow:0rem 0.1rem 0.3rem 0rem rgba(186,193,208,1);
+    opacity:0.8;
+    border-radius:0.1rem;
+}

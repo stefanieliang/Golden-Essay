@@ -13,6 +13,7 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link rel="stylesheet" href="stylesheet/common/ie10-viewport-bug-workaround.css">
     <link rel="stylesheet" href="stylesheet/common/reset.css">
+    <link rel="stylesheet" href="layui-v2.4.5/css/layui.css">
     <script src="javascript/common/viewport.js"></script>
     <link rel="stylesheet" href="stylesheet/common/main.css">
     <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
@@ -47,15 +48,132 @@
             </ul>
         </div>
         <div class="order-content">
+            <div class="order-content-left fl">
+                <form class="layui-form" action="">
+                    <div class="order-content-left-item">
+                        <p><span>01.</span>&nbsp;&nbsp;基本信息</p>
+                        <div>
+                            <div class="layui-form-item">
+                                <div class="layui-inline">
+                                    <label class="layui-form-label">学术水平&nbsp;&nbsp;<img src="images/order/questionMark.png"/></label>
+                                    <div class="layui-input-inline">
+                                        <select name="quiz3">
+                                            <option value="">请选择县/区</option>
+                                            <option value="西湖区">西湖区</option>
+                                            <option value="余杭区">余杭区</option>
+                                            <option value="拱墅区">临安市</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="layui-inline">
+                                    <label class="layui-form-label"><span>*</span>&nbsp;&nbsp;服务类型&nbsp;&nbsp;<img src="images/order/questionMark.png"/></label>
+                                    <div class="layui-input-inline">
+                                        <input type="text" name="email" lay-verify="email" autocomplete="off" class="layui-input">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="layui-form-item">
+                                <div class="layui-inline">
+                                    <label class="layui-form-label">写作页数</label>
+                                    <div class="layui-input-inline">
+                                        <input type="tel" name="phone" lay-verify="required|phone" autocomplete="off" class="layui-input">
+                                    </div>
+                                </div>
+                                <div class="layui-inline">
+                                    <label class="layui-form-label">间距</label>
+                                    <div class="layui-input-inline">
+                                        <input type="tel" name="phone" lay-verify="required|phone" autocomplete="off" class="layui-input">
+                                    </div>
+                                </div>
+                                <div class="layui-inline">
+                                    <label class="layui-form-label">交付时间&nbsp;&nbsp;<img src="images/order/questionMark.png"/></label>
+                                    <div class="layui-input-inline">
+                                        <input type="text" name="email" lay-verify="email" autocomplete="off" class="layui-input">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="order-content-left-item">
+                        <p><span>02.</span>&nbsp;&nbsp;详细信息</p>
+                        <div>
+                            <div class="layui-form-item">
+                                <div class="layui-inline">
+                                    <label class="layui-form-label">引文风格&nbsp;&nbsp;<img src="images/order/questionMark.png"/></label>
+                                    <div class="layui-input-inline">
+                                        <select name="quiz3">
+                                            <option value="">请选择县/区</option>
+                                            <option value="西湖区">西湖区</option>
+                                            <option value="余杭区">余杭区</option>
+                                            <option value="拱墅区">临安市</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="layui-inline">
+                                    <label class="layui-form-label">引文风格&nbsp;&nbsp;<img src="images/order/questionMark.png"/></label>
+                                    <div class="layui-input-inline">
+                                        <input type="text" name="email" lay-verify="email" autocomplete="off" class="layui-input">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="layui-form-item">
+                                <label class="layui-form-label">课程名称&nbsp;&nbsp;<img src="images/order/questionMark.png"/></label>
+                                <div class="layui-input-block">
+                                    <input type="text" name="title" lay-verify="title" autocomplete="off" placeholder="请输入标题" class="layui-input">
+                                </div>
+                            </div>
+                            <div class="layui-form-item layui-form-text">
+                                <label class="layui-form-label">订单要求&nbsp;&nbsp;<img src="images/order/questionMark.png"/></label>
+                                <div class="layui-input-block">
+                                    <textarea placeholder="请输入内容" class="layui-textarea"></textarea>
+                                </div>
+                            </div>
+                            <div class="layui-form-item layui-form-text">
+                                <label class="layui-form-label">上传文件&nbsp;&nbsp;<img src="images/order/questionMark.png"/></label>
+                                <div class="layui-upload-drag" id="test10">
+                                    <i class="layui-icon"></i>
+                                    <p>点击上传，或将文件拖拽到此处</p>
+                                </div>
+                            </div>
+                            <div class="layui-form-item">
+                                <div class="layui-inline">
+                                    <label class="layui-form-label">关联订单&nbsp;&nbsp;<img src="images/order/questionMark.png"/></label>
+                                    <div class="layui-input-inline">
+                                        <input type="tel" name="phone" lay-verify="required|phone" autocomplete="off" class="layui-input">
+                                    </div>
+                                </div>
+                                <div class="layui-inline">
+                                    <label class="layui-form-label">偏好写手&nbsp;&nbsp;<img src="images/order/questionMark.png"/></label>
+                                    <div class="layui-input-inline">
+                                        <input type="text" name="email" lay-verify="email" autocomplete="off" class="layui-input">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="order-content-right fr">
 
+            </div>
         </div>
     </div>
 </div>
-<!--<script src="javascript/common/viewport.js"></script>-->
-<!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+<script src="layui-v2.4.5/layui.js"></script>
+<script>
+    layui.use(['form', 'layedit', 'laydate'], function() {
+            var form = layui.form
+                , layer = layui.layer
+                , layedit = layui.layedit
+                , laydate = layui.laydate;
+
+    });
+</script>
+
+        <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
 <script src="bootstrap-3.3.7/dist/js/bootstrap.js"></script>
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <script src="javascript/common/ie10-viewport-bug-workaround.js"></script>
-<script src="javascript/service.js"></script>
+<script src="javascript/order.js"></script>
 </body>
 </html>
