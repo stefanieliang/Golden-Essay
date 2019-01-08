@@ -1,17 +1,18 @@
 /*登录页面*/
 .login-container{
     width:100%;
-    background:rgba(255,255,255,1);
+    background:url("../../images/login_bg.png") center no-repeat;
+    background-size:9.83rem  4.73rem;
 }
-.login-container img:first-child{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    margin-left: -4.91rem;
-    margin-top: -2.36rem;
-    width: 9.83rem;
-    height: 4.73rem;
-}
+/*.login-container img:first-child{*/
+    /*position: absolute;*/
+    /*left: 50%;*/
+    /*top: 50%;*/
+    /*margin-left: -4.91rem;*/
+    /*margin-top: -2.36rem;*/
+    /*width: 9.83rem;*/
+    /*height: 4.73rem;*/
+/*}*/
 .login-main{
     box-sizing: border-box;
     position: absolute;
@@ -20,7 +21,6 @@
     margin-left: -2.45rem;
     margin-top: -2.77rem;
     width:5.01rem;
-    height:5.53rem;
     background:rgba(255,255,255,1);
     box-shadow:0rem 0.08rem 0.2rem 0rem rgba(221,227,238,1);
     opacity:0.4;
@@ -28,12 +28,11 @@
     text-align: center;
 }
 .login-main .top .active {
-    line-height:0.45rem;
     border-bottom: 0.02rem solid #4A86FF;
     padding-bottom: 0.19rem;
 }
 .login-main .top .active a{
-    font-size:24px;
+    font-size:0.24rem;
     font-weight:bold;
     color:#4A86FF;
 }
@@ -43,14 +42,12 @@
     margin-bottom: 0.5rem;
 }
 .login-main .top li a{
-    font-size:20px;
+    font-size:0.2rem;
     font-weight:bold;
     color:rgba(153,153,153,1);
-    line-height:0.45rem;
     text-decoration: none;
 }
 .login-main input{
-    margin: auto;
     width:3rem;
     height:0.4rem;
     border: 0rem;
@@ -61,7 +58,6 @@
     background-color: #fff;
     font-weight:400;
     color:rgba(102,102,102,1);
-    line-height:0.45rem;
     margin-bottom: 0.3rem;
 }
 .login-main .login-form-footer{
