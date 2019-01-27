@@ -887,3 +887,519 @@
     width: 100%;
     height: 3.8rem;
 }
+
+/*个人中心-我的会员*/
+
+.personal-header{
+    width:19.20rem;
+    height:0.9rem;
+    background:rgba(255,255,255,1);
+    box-shadow:0rem 0.02rem 0.1rem 0rem rgba(227,227,227,0.5);
+}
+.personal-header-container{
+    width: 11.4rem;
+    height: 0.9rem;
+    margin: 0 3.9rem;
+}
+.personal-header-container-left {
+    height: 0.9rem;
+    padding: 0.19rem 0.21rem 0 0;
+}
+.personal-header-container-left .logo{
+    width: 0.5rem;
+    height: 0.5rem;
+    float: left;
+}
+.personal-header-container-left div{
+    float: left;
+    margin-top: 0.05rem;
+    margin-left: 0.19rem;
+    /*width: 1.11rem;*/
+    height: 0.36rem;
+}
+.personal-header-container-left div p:nth-child(1){
+    height: 0.18rem;
+    font-size:0.16rem;
+    font-family:MicrosoftYaHei-Bold;
+    font-weight:bold;
+    color:rgba(102,102,102,1);
+}
+.personal-header-container-left div p:nth-child(2){
+    height: 0.12rem;
+    font-size:0.12rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(254,179,0,1);
+    line-height: 0.32rem;
+}
+.personal-header-container-right{
+    height:0.14rem;
+    font-size:0.14rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+}
+.personal-header-container-right-item{
+    margin: 0 0.2rem;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 60px;
+}
+.personal-header-container-right-item img{
+    width: 0.2rem;
+    height: 0.2rem;
+    margin-right: 0.09rem;
+}
+.personal-header-container-right .layui-nav:nth-child(1){
+    color:#666666;
+}
+.personal-header-container-right .layui-nav:nth-child(2){
+    color:#333333;
+}
+.personal-header-container-right ul>img{
+    width:0.4rem;
+    height:0.4rem;
+    background:rgba(224,224,224,1);
+    border-radius:50%;
+}
+.personal-sidebar{
+    float: left;
+    margin-top: 0.3rem;
+    margin-bottom: 0.4rem;
+    width:17.54%;
+    height:11.24rem;
+    background:rgba(255,255,255,1);
+    box-shadow:0rem 0.02rem 0.1rem 0rem rgba(227,227,227,0.5);
+}
+.personal-sidebar li{
+    text-align: center;
+    height:0.16rem;
+    line-height: 0.16rem;
+    font-size:0.16rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(153,153,153,1);
+    margin-top: 0.5rem;
+    margin-bottom: 0.6rem;
+}
+.personal-sidebar li img{
+    width: 0.2rem;
+    height: 0.2rem;
+    margin-right: 0.18rem;
+    vertical-align: middle;
+}
+.personal-sidebar li a:hover,.personal-sidebar li .active{
+    color:rgba(74,134,255,1);
+}
+.personal-content{
+    margin-top: 0.3rem;
+    float: right;
+    width:79.82%;
+}
+.personal-myinfo{
+    width:100%;
+    height:2.9rem;
+    background:rgba(255,255,255,1);
+    padding: 0.5rem 0.43rem;
+}
+.personal-myinfo-left{
+    width: 50%;
+    padding-right: 0.5rem;
+    border-right: 1px solid #F0F0F0;
+}
+.personal-myinfo-left p:nth-child(1){
+    padding-left: 0.36rem;
+    font-size:0.2rem;
+    line-height: 0.2rem;
+    height: 0.2rem;
+    font-family:MicrosoftYaHei-Bold;
+    font-weight:bold;
+    color:rgba(51,51,51,1);
+    margin-bottom: 0.22rem;
+}
+.personal-myinfo-left p:nth-child(1) span{
+    font-size:0.14rem;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+}
+.personal-myinfo-left img{
+    width: 0.52rem;
+    height: 0.54rem;
+}
+.personal-myinfo-left .layui-progress{
+    top: -0.35rem;
+    left: 0.1rem;
+    height:0.2rem;
+    background:rgba(74,134,255,1);
+    opacity:0.12;
+    border-radius:0.05rem;
+}
+.personal-myinfo-left .layui-progress .layui-progress-bar{
+    height:0.12rem;
+    background-color: #4A86FF;
+    border-radius:0.06rem;
+    margin-top: 0.04rem;
+}
+.personal-myinfo-left ul li{
+    font-size:12px;
+    font-family:MicrosoftYaHei;
+}
+.personal-myinfo-left ul li:nth-child(1){
+    float: left;
+    margin-left: 0.39rem;
+    font-weight:400;
+    color:rgba(74,134,255,1);
+}
+.personal-myinfo-left ul li:nth-child(2) span{
+    color: #333333;
+}
+.personal-myinfo-left ul li:nth-child(2){
+    float: right;
+    font-weight:400;
+    color: #999999;
+}
+.personal-myinfo-left p:last-child{
+    text-align: center;
+    line-height: 0.4rem;
+    margin-top: 0.45rem;
+    margin-left: 0.6rem;
+    width:1.2rem;
+    height:0.4rem;
+    background:rgba(255,255,255,1);
+    border:1px solid rgba(74,134,255,1);
+    border-radius:0.05rem;
+    font-size:0.14rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(74,134,255,1);
+}
+.personal-myinfo-right{
+    width: 50%;
+    height: auto;
+    padding-left: 0.5rem;
+}
+.personal-myinfo-right ul li{
+    font-size:0.14rem;
+    line-height: 0.14rem;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    margin-bottom: 0.28rem;
+}
+.personal-myinfo-right ul span{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 0.15rem;
+    width:0.05rem;
+    height:0.05rem;
+    background:rgba(242,78,78,1);
+    border-radius:50%;
+}
+.personal-content .title{
+    margin-top: 0.38rem;
+    margin-bottom: 0.23rem;
+    font-size:0.16rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(51,51,51,1);
+}
+.personal-content .title span{
+    float: right;
+    font-size:0.12rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(153,153,153,1);
+}
+.personal-content .personal-point .personal-point-content{
+    width:100%;
+    padding-bottom: 0.28rem;
+    background:rgba(255,255,255,1);
+    border-radius:0.05rem 0.05rem 0rem 0rem;
+}
+.personal-point-content table{
+    width: 100%;
+    text-align: center;
+}
+.personal-point-content table th{
+    text-align: center;
+    height:0.4rem;
+    font-size:0.14rem;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    border-bottom: 1px solid rgba(240,240,240,1);
+}
+.personal-point-content table td{
+    text-align: center;
+    height:0.5rem;
+    font-size:0.14rem;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(102,102,102,1);
+    border-right: 1px solid rgba(240,240,240,1);
+}
+.personal-point-content table tr td:last-child{
+    border: 0rem;
+}
+.personal-content .personal-level .personal-level-content{
+    width:100%;
+    height:3rem;
+    background:rgba(255,255,255,1);
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.personal-level-content-item{
+    width:1.65rem;
+    height:2rem;
+    background:rgba(74,134,255,1);
+    opacity:0.1;
+}
+.personal-container{
+    position: relative;
+    z-index: 999;
+    margin-left: 20.31%;
+    width: 59.37%;
+    overflow: hidden;
+}
+.personal-footer{
+    width:100%;
+    height:1.5rem;
+    background:rgba(255,255,255,1);
+}
+.personal-footer-content{
+    margin: 0 auto;
+    width:9rem;
+    height:1.5rem;
+}
+.personal-footer-content-top{
+    height: 0.77rem;
+    border-bottom: 1px solid #F0F0F0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.personal-footer-content-top li{
+    font-size:0.16rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(102,102,102,1);
+}
+.personal-footer-content-bottom{
+    height: 0.7rem;
+    line-height: 0.7rem;
+    text-align: center;
+    font-size:0.14rem;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(102,102,102,1);
+}
+/*我的钱包*/
+.personal-walletinfo{
+    width:100%;
+    height:1.7rem;
+    background:rgba(255,255,255,1);
+    margin-bottom: 0.4rem;
+    padding: 0.4rem 0.3rem 0.4rem 0.4rem;
+}
+.personal-walletinfo li{
+    display: inline-block;
+}
+.personal-walletinfo-top{
+    height: 0.7rem;
+    border-bottom: 1px solid #F0F0F0;
+}
+.personal-walletinfo-top-left p{
+    font-size:0.2rem;
+    font-family:MicrosoftYaHei-Bold;
+    font-weight:bold;
+    color:rgba(51,51,51,1);
+}
+.personal-walletinfo-top-left p span{
+    font-size:0.3rem;
+    font-family:MicrosoftYaHei-Bold;
+    font-weight:bold;
+    color:rgba(255,166,33,1);
+}
+.personal-walletinfo-top-right li{
+    text-align: center;
+    line-height: 0.4rem;
+    margin-left: 0.36rem;
+    width:1.2rem;
+    height:0.4rem;
+    border:1px solid rgba(74,134,255,1);
+    border-radius:0.05rem;
+    font-size:0.14rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(74,134,255,1);
+}
+.personal-walletinfo-bottom{
+    height: 0.7rem;
+}
+.personal-walletinfo-bottom ul{
+    width: 50%;
+    display: inline-block;
+}
+.personal-walletinfo-bottom-left li{
+    line-height: 0.7rem;
+}
+.personal-walletinfo-bottom-left li:nth-child(1){
+    font-size:0.14rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(51,51,51,1);
+}
+.personal-walletinfo-bottom-left li:nth-child(2){
+    margin-left: 0.14rem;
+    font-size:0.2rem;
+    font-family:MicrosoftYaHei-Bold;
+    font-weight:bold;
+    color:rgba(255,166,33,1);
+}
+.personal-walletinfo-bottom-left li:nth-child(3){
+    margin-left: 0.4rem;
+    font-size:0.12rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(74,134,255,1);
+}
+.personal-walletinfo-bottom-right li{
+    line-height: 0.7rem;
+}
+.personal-walletinfo-bottom-right li:nth-child(1){
+    font-size:0.14rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(51,51,51,1);
+}
+.personal-walletinfo-bottom-right li:nth-child(2){
+    margin-left: 0.14rem;
+    font-size:0.2rem;
+    font-family:MicrosoftYaHei-Bold;
+    font-weight:bold;
+    color:rgba(255,166,33,1);
+}
+.personal-walletinfo-bottom-right li:nth-child(3){
+    margin-left: 0.4rem;
+    font-size:0.12rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(74,134,255,1);
+}
+.personal-tab{
+    border-top: 1px solid #E0E0E0;
+    width:100%;
+    height:0.7rem;
+}
+.personal-tab li{
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    font-size:0.16rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(153,153,153,1);
+    float: left;
+    padding-top: 0.29rem;
+    padding-bottom: 0.19rem;
+}
+.personal-tab .active{
+    color: #1981FF;
+    background: url("../../images/personal/tab-bar.png")top center no-repeat;
+}
+/*我的钱包-充值金额*/
+.personal-wallet-charge{
+
+}
+.personal-wallet-charge .title{
+    margin-top: 0.38rem;
+    margin-bottom: 0.23rem;
+    font-size:0.16rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(51,51,51,1);
+}
+.personal-wallet-charge .personal-wallet-charge-content{
+    height: 6.7rem;
+    width: 100%;
+    background:rgba(255,255,255,1);
+}
+.personal-wallet-charge-content .active{
+    border:1px solid rgba(255,165,33,1);
+}
+.personal-wallet-charge-content .active p{
+    color:rgba(255,165,33,1) !important;
+}
+.personal-wallet-charge-content-item{
+    padding: 0.36rem;
+    width:2.5rem;
+    height:1.4rem;
+    background:rgba(255,255,255,1);
+    border:1px solid rgba(224,224,224,1);
+    float: left;
+    margin-top: 0.4rem;
+    margin-bottom: 0.1rem;
+    margin-left: 0.4rem;
+}
+.personal-wallet-charge-content-item:nth-child(6) p{
+    line-height: 0.65rem!important;
+}
+.personal-wallet-charge-content-item p{
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(51,51,51,1);
+    text-align: center;
+}
+.personal-wallet-charge-content-item p:nth-child(1){
+    font-size:0.3rem;
+}
+.personal-wallet-charge-content-item p:nth-child(2){
+    font-size:0.14rem;
+}
+.personal-wallet-charge-content-footer{
+    margin-top: 0.9rem;
+    left: 50%;
+    margin-left: -1.4rem;
+    position: relative;
+    float: left;
+    width: 3.2rem;
+    height: 1rem;
+}
+.personal-wallet-charge-content-footer>img{
+    width: 1rem;
+    height: 1rem;
+    float: left;
+    margin-right: 0.5rem;
+}
+.personal-wallet-charge-content-footer p:nth-child(2){
+    font-size:0.24rem;
+    font-family:MicrosoftYaHei-Bold;
+    font-weight:bold;
+    color:rgba(74,134,255,1);
+    line-height:0.3rem;
+}
+.personal-wallet-charge-content-footer p:nth-child(3){
+    font-size:0.14rem;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    line-height:0.3rem;
+}
+.personal-wallet-charge-content-footer ul li{
+    display: inline-block;
+}
+.personal-wallet-charge-content-footer ul li:nth-child(3){
+    line-height: 0.5rem;
+}
+.personal-wallet-charge-content-footer ul img{
+    height: 0.24rem;
+    width: 0.24rem;
+    margin-right: 0.1rem;
+}
+.personal-wallet-charge-content-footer ul img:nth-child(3){
+    height: 0.24rem;
+    width: 0.29rem;
+    margin-right: 0.1rem;
+}
