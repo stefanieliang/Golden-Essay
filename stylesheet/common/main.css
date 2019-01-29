@@ -1288,12 +1288,12 @@
     font-weight:bold;
     color:rgba(74,134,255,1);
 }
-.personal-tab{
+.personal-point .personal-tab{
     border-top: 1px solid #E0E0E0;
     width:100%;
     height:0.7rem;
 }
-.personal-tab li{
+.personal-point .personal-tab li{
     display: inline-block;
     text-align: center;
     width: 50%;
@@ -1305,7 +1305,7 @@
     padding-top: 0.29rem;
     padding-bottom: 0.19rem;
 }
-.personal-tab .active{
+.personal-point .personal-tab .active{
     color: #1981FF;
     background: url("../../images/personal/tab-bar.png")top center no-repeat;
 }
@@ -1402,4 +1402,308 @@
     height: 0.24rem;
     width: 0.29rem;
     margin-right: 0.1rem;
+}
+
+/*我的订单*/
+.personal-order .personal-tab{
+    border-bottom: 1px solid #E0E0E0;
+}
+.personal-order .personal-tab li{
+    font-size:0.18rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(51,51,51,1);
+    display: inline-block;
+    padding-bottom: 0.2rem;
+    text-align: center;
+}
+.personal-order .personal-tab li img{
+    width: 0.2rem;
+    height: 0.2rem;
+    margin-right: 0.2rem;
+}
+.personal-order .personal-tab li span{
+    font-size: 0.16rem;
+}
+.personal-order .personal-tab .active{
+    color:rgba(25,129,255,1);
+    border-bottom: 2px solid #1981FF;
+}
+.personal-order .personal-tab #orderNow{
+    margin-left: 0.6rem;
+    width:1.3rem !important;
+    height:0.4rem;
+    line-height: 0.4rem;
+    background:rgba(25,129,255,1);
+    border-radius:0.2rem;
+    font-size:0.16rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(255,255,255,1);
+}
+.personal-order-content{
+    width: 100%;
+    text-align: center;
+}
+.personal-order-content li{
+    display: inline-block;
+    font-size:0.14rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(153,153,153,1);
+    margin-top: 0.29rem;
+    margin-bottom: 0.16rem;
+}
+.personal-order-content .personal-order-content-item{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    height:1.6rem;
+    background:rgba(255,255,255,1);
+    box-shadow:0px 2px 10px 0px rgba(227,227,227,0.5);
+    margin-top: 0.16rem;
+    margin-bottom: 0.3rem;
+}
+.personal-order-content .personal-order-content-item div{
+    float: left;
+}
+.personal-order-content .personal-order-content-item .order-state .order-state-bg{
+    width:0.8rem;
+    height:0.8rem;
+    margin-left: 0.26rem;
+    border-radius:50%;
+}
+.personal-order-content .personal-order-content-item .order-state .order-state-bg p{
+    font-size:0.18rem;
+    font-family:MicrosoftYaHei-Bold;
+    font-weight:bold;
+}
+.personal-order-content .personal-order-content-item .order-state-done{
+    filter:Alpha(opacity=50);
+    position:static; /* IE6、7、8只能设置position:static(默认属性) ，否则会导致子元素继承Alpha值 */
+    *zoom:1; /* 激活IE6、7的haslayout属性，让它读懂Alpha */
+    background:rgba(107,212,43,1);
+    opacity:0.1;
+}
+.personal-order-content .personal-order-content-item .order-state-done .order-state-bg p{
+    color:rgba(102,192,47,1);
+    position: relative;/* 设置子元素为相对定位，可让子元素不继承Alpha值 */
+}
+.personal-order-content .personal-order-content-item .order-state-handing{
+    filter:Alpha(opacity=50);
+    position:static; /* IE6、7、8只能设置position:static(默认属性) ，否则会导致子元素继承Alpha值 */
+    *zoom:1; /* 激活IE6、7的haslayout属性，让它读懂Alpha */
+    background:#4A86FF;
+    opacity:0.1;
+}
+.personal-order-content .personal-order-content-item .order-state-handing .order-state-bg p{
+    color:#4A86FF;
+    position: relative;/* 设置子元素为相对定位，可让子元素不继承Alpha值 */
+}
+.personal-order-content .personal-order-content-item .order-state-unpay{
+    filter:Alpha(opacity=50);
+    position:static; /* IE6、7、8只能设置position:static(默认属性) ，否则会导致子元素继承Alpha值 */
+    *zoom:1; /* 激活IE6、7的haslayout属性，让它读懂Alpha */
+    background:#FFAE06;
+    opacity:0.1;
+}
+.personal-order-content .personal-order-content-item .order-state-unpay .order-state-bg p{
+    color:#FFAE06;
+    position: relative;/* 设置子元素为相对定位，可让子元素不继承Alpha值 */
+}
+.personal-order-content .personal-order-content-item .order-info p{
+    margin: 0.1rem auto;
+    text-align: left;
+}
+.personal-order-content .personal-order-content-item .order-info p:nth-child(1){
+    font-size:0.16rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(153,153,153,1);
+}
+.personal-order-content .personal-order-content-item .order-info p:nth-child(2){
+    font-size:0.18rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(25,129,255,1);
+}
+.personal-order-content .personal-order-content-item .order-info p:nth-child(3){
+    font-size:0.14rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:#666666;
+}
+.personal-order-content .personal-order-content-item .order-deadline p{
+     font-size:0.14rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(51,51,51,1);
+}
+.personal-order-content .personal-order-content-item .order-deadline p:nth-child(3){
+    font-size:0.12rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(153,153,153,1);
+}
+.personal-order-content .personal-order-content-item .order-price p{
+    font-size:0.2rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(255,151,59,1);
+}
+.personal-order-content .personal-order-content-item .order-edit p{
+    width:0.9rem;
+    height:0.3rem;
+    border:0.01rem solid rgba(25,129,255,1);
+    border-radius:0.15rem;
+    font-size:0.12rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(25,129,255,1);
+    text-align: center;
+    margin: 0.2rem auto;
+}
+/*我的推广*/
+.personal-content .personal-promote-banner{
+    width:100%;
+    height:1.5rem;
+    line-height: 1.5rem;
+    background:rgba(255,255,255,1);
+    margin-bottom: 0.1rem;
+    text-align: center;
+    font-size:0.2rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(51,51,51,1);
+}
+.personal-invitation{
+    width:100%;
+    height:0.8rem;
+    line-height: 0.8rem;
+    background:rgba(255,255,255,1);
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+}
+.personal-invitation li{
+    display: inline-block;
+
+}
+.personal-invitation-left{
+    width: 40%;
+}
+.personal-invitation-left li:nth-child(1),.personal-invitation-right li:nth-child(1){
+    font-size:0.14rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(102,102,102,1);
+    margin-right: 0.19rem;
+}
+.personal-invitation-left li:nth-child(2){
+    font-size:0.14rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(74,134,255,1);
+}
+.personal-invitation-right li:nth-child(3){
+    width:0.7rem;
+    height:0.4rem;
+    line-height: 0.4rem;
+    text-align: center;
+    border:1px solid rgba(74,134,255,1);
+    opacity:0.2;
+    font-size:0.14rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(25,129,255,1);
+}
+.personal-invitation-right .layui-input-block{
+    margin-right: 0 !important;
+    width: 3rem;
+}
+/*我的代理*/
+.personal-proxyinfo{
+    width:100%;
+    height:2rem;
+    background:rgba(255,255,255,1);
+    margin-bottom: 0.5rem;
+    padding: 0.3rem;
+}
+.personal-proxyinfo .personal-proxyinfo-left{
+    width: 50%;
+    border-right: 0.02rem solid #F0F0F0;
+}
+.personal-proxyinfo .personal-proxyinfo-left p{
+     font-size:0.18rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(51,51,51,1);
+    margin-bottom: 0.2rem;
+}
+.personal-proxyinfo .personal-proxyinfo-left p span{
+     font-size:0.12rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(25,129,255,1);
+}
+.personal-proxyinfo .personal-proxyinfo-left ul li{
+    display: inline-block;
+    text-align: center;
+}
+.personal-proxyinfo .personal-proxyinfo-left ul li img{
+    width: 0.16rem;
+    height: 0.16rem;
+    margin-bottom: 0.3rem;
+}
+.personal-proxyinfo .personal-proxyinfo-left ul li p:nth-child(1){
+    font-size:0.2rem;
+    font-family:MicrosoftYaHei-Bold;
+    font-weight:bold;
+    color:rgba(74,134,255,1);
+    margin-right: 0.3rem;
+}
+.personal-proxyinfo .personal-proxyinfo-left ul li p:nth-child(2){
+    font-size:0.12rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(102,102,102,1);
+    margin-right: 0.3rem;
+ }
+.personal-proxyinfo .personal-proxyinfo-right{
+    width: 50%;
+}
+.personal-proxyinfo-right .personal-proxyinfo-invitation{
+    font-size:0.14rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(102,102,102,1);
+}
+.personal-proxyinfo-right .personal-proxyinfo-invitation span{
+    font-size:0.14rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(74,134,255,1);
+}
+.personal-proxyinfo-right .personal-invitation-item{
+    margin-bottom: 0.4rem;
+    margin-left: 0.2rem;
+}
+.personal-invitation-item .layui-form-item{
+    width: 60%!important;
+    display: inline-block;
+}
+.personal-invitation-item .layui-form-item .layui-input-block {
+    margin-right: 0;
+}
+.personal-proxyinfo-invitation div:nth-child(2)>span{
+    width:0.7rem;
+    height:0.4rem;
+    border:1px solid rgba(74,134,255,1);
+    opacity:0.2;
+    font-size:0.14rem;
+    padding: 0.13rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(25,129,255,1);
 }
