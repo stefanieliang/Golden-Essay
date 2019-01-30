@@ -2,23 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20f86fd1-c3c0-4804-833f-255475a69914" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/personal/phone-unbind.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/personal/phone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/personal/qq-unbind.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/personal/qq.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/personal/rmb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/personal/wechat-unbind.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/personal/weibo-unbind.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/personal/weibo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/personal/order.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/personal/promote.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/personal/proxy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/下单页面部分.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/价格计算(定制-门户).xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/选项.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/index/index-container-5-4-hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/index/index-container-5-5-hover.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bug.html" beforeDir="false" afterPath="$PROJECT_DIR$/bug.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/index/index-container-5-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/index/index-container-5-4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order.html" beforeDir="false" afterPath="$PROJECT_DIR$/order.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service.html" beforeDir="false" afterPath="$PROJECT_DIR$/service.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stylesheet/common/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheet/common/main.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -47,19 +37,19 @@
         <counts>
           <entry key="css" value="12" />
           <entry key="gif" value="1" />
-          <entry key="html" value="47" />
+          <entry key="html" value="53" />
           <entry key="jpg" value="10" />
           <entry key="js" value="16" />
           <entry key="json" value="3" />
-          <entry key="png" value="27" />
+          <entry key="png" value="33" />
           <entry key="scss" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="12" />
-          <entry key="HTML" value="47" />
-          <entry key="Image" value="38" />
+          <entry key="HTML" value="53" />
+          <entry key="Image" value="44" />
           <entry key="JSON" value="3" />
           <entry key="JavaScript" value="16" />
           <entry key="SCSS" value="3" />
@@ -67,21 +57,21 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="4957" />
-          <entry key="html" value="2363" />
+          <entry key="css" value="5529" />
+          <entry key="html" value="2977" />
           <entry key="js" value="528" />
           <entry key="json" value="104" />
           <entry key="scss" value="81" />
-          <entry key="txt" value="7" />
+          <entry key="txt" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="4957" />
-          <entry key="HTML" value="2363" />
+          <entry key="CSS" value="5529" />
+          <entry key="HTML" value="2977" />
           <entry key="JSON" value="104" />
           <entry key="JavaScript" value="528" />
-          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="PLAIN_TEXT" value="13" />
           <entry key="SCSS" value="81" />
         </counts>
       </usages-collector>
@@ -89,24 +79,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/stylesheet/common/main.css">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/order.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="1697" column="1" selection-start-line="1697" selection-start-column="1" selection-end-line="1697" selection-end-column="1" />
+            <state relative-caret-position="317">
+              <caret line="92" column="72" selection-start-line="92" selection-start-column="67" selection-end-line="92" selection-end-column="72" />
+              <folding>
+                <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/personal/proxy.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/stylesheet/common/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="61">
-              <caret line="125" column="61" selection-start-line="125" selection-start-column="32" selection-end-line="125" selection-end-column="61" />
-              <folding>
-                <element signature="e#4223#4229#0" expanded="true" />
-                <element signature="e#4229#4235#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="365">
+              <caret line="840" column="16" selection-start-line="840" selection-start-column="16" selection-end-line="840" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -127,6 +117,8 @@
       <find>.personal-tab</find>
       <find>order-state</find>
       <find>personal-invitation</find>
+      <find>index-container-5-two-section</find>
+      <find>service-top</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -151,15 +143,15 @@
         <option value="$PROJECT_DIR$/stylesheet/common/reset.css" />
         <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/bxslider/jquery.bxslider.css" />
-        <option value="$PROJECT_DIR$/service.html" />
         <option value="$PROJECT_DIR$/service.js" />
-        <option value="$PROJECT_DIR$/order.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/login.html" />
         <option value="$PROJECT_DIR$/personal/order.html" />
         <option value="$PROJECT_DIR$/bug.html" />
         <option value="$PROJECT_DIR$/personal/promote.html" />
         <option value="$PROJECT_DIR$/personal/proxy.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/service.html" />
+        <option value="$PROJECT_DIR$/order.html" />
         <option value="$PROJECT_DIR$/stylesheet/common/main.css" />
       </list>
     </option>
@@ -192,22 +184,6 @@
               <item name="GoldenEssay" type="b2602c69:ProjectViewProjectNode" />
               <item name="GoldenEssay" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="GoldenEssay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GoldenEssay" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GoldenEssay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GoldenEssay" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="personal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GoldenEssay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GoldenEssay" type="462c0819:PsiDirectoryNode" />
-              <item name="personal" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -232,11 +208,11 @@
       <recent name="C:\Users\Administrator\Desktop\GoldenEssay\images\index" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\GoldenEssay\images\index" />
       <recent name="C:\Users\Administrator\Desktop\GoldenEssay\images\personal" />
       <recent name="C:\Users\Administrator\Desktop\GoldenEssay\layui-v2.4.5" />
       <recent name="C:\Users\Administrator\Desktop\GoldenEssay\stylesheet\common" />
       <recent name="C:\Users\Administrator\Desktop\GoldenEssay" />
-      <recent name="C:\Users\Administrator\Desktop\GoldenEssay\resources\stylesheet\common" />
     </key>
   </component>
   <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
@@ -1172,17 +1148,24 @@
       <option name="project" value="LOCAL" />
       <updated>1546593528161</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="proxy">
+      <created>1548749989566</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1548749989566</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107268000" />
+    <option name="totallyTimeSpent" value="122344000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28517398" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14599092" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="DB Browser" order="2" />
       <window_info id="Project Explorer" order="3" />
@@ -1200,7 +1183,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="DB Execution Console" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.109836064" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.27704918" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" visible="true" weight="0.124590166" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1216,15 +1199,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="service" />
-    <option name="LAST_COMMIT_MESSAGE" value="service" />
+    <MESSAGE value="proxy" />
+    <option name="LAST_COMMIT_MESSAGE" value="proxy" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/static/js/sys-user/sys-menu.js" />
-    <entry file="file://$PROJECT_DIR$/resources/static/img/bg/1.jpg" />
-    <entry file="file://$PROJECT_DIR$/resources/static/img/bg/2.jpg" />
-    <entry file="file://$PROJECT_DIR$/resources/static/img/bg/3.jpg" />
-    <entry file="file://$PROJECT_DIR$/resources/static/img/bg/4.jpg" />
-    <entry file="file://$PROJECT_DIR$/resources/static/img/bg/5.jpg" />
     <entry file="file://$PROJECT_DIR$/resources/static/img/bg/6.jpg" />
     <entry file="file://$PROJECT_DIR$/resources/static/img/bg/8.jpg" />
     <entry file="file://$PROJECT_DIR$/resources/static/img/bg/9.jpg" />
@@ -1313,28 +1291,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="71" column="62" selection-start-line="71" selection-start-column="34" selection-end-line="71" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service.js" />
     <entry file="file://$PROJECT_DIR$/images/index/index_bj7.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/demo.html" />
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="72" selection-start-line="13" selection-start-column="72" selection-end-line="13" selection-end-column="72" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1755">
@@ -1352,13 +1313,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/order.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="123" column="34" lean-forward="true" selection-start-line="118" selection-start-column="28" selection-end-line="123" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/personal/promote.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="358">
@@ -1373,6 +1327,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="120" column="18" lean-forward="true" selection-start-line="96" selection-start-column="12" selection-end-line="120" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/personal/wechat.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/personal/proxy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="125" column="61" selection-start-line="125" selection-start-column="32" selection-end-line="125" selection-end-column="61" />
+          <folding>
+            <element signature="e#4223#4229#0" expanded="true" />
+            <element signature="e#4229#4235#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1420,24 +1388,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/personal/wechat.png">
+    <entry file="file://$PROJECT_DIR$/images/index/index-container-5-1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/personal/proxy.html">
+    <entry file="file://$PROJECT_DIR$/images/index/index-container-5-4.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/index/index-container-5-5.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/index/index-container-5-4-hover.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/index/index-container-5-3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/index/index-container-5-2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="125" column="61" selection-start-line="125" selection-start-column="32" selection-end-line="125" selection-end-column="61" />
+        <state relative-caret-position="290">
+          <caret line="238" column="15" selection-start-line="238" selection-start-column="15" selection-end-line="238" selection-end-column="15" />
           <folding>
-            <element signature="e#4223#4229#0" expanded="true" />
-            <element signature="e#4229#4235#0" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="45" column="25" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="25" />
+          <folding>
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="92" column="72" selection-start-line="92" selection-start-column="67" selection-end-line="92" selection-end-column="72" />
+          <folding>
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stylesheet/common/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="1697" column="1" selection-start-line="1697" selection-start-column="1" selection-end-line="1697" selection-end-column="1" />
+        <state relative-caret-position="365">
+          <caret line="840" column="16" selection-start-line="840" selection-start-column="16" selection-end-line="840" selection-end-column="16" />
         </state>
       </provider>
     </entry>

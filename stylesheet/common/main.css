@@ -613,15 +613,11 @@
     margin-left: 0.6rem;
     margin-right: 0.6rem;
 }
-/*.index-container-5 .index-container-5-two-section:hover{*/
-    /*background:rgba(74,134,255,1);*/
-    /*box-shadow:0rem 0.1rem 0.3rem 0rem rgba(184,190,201,0.32);*/
-    /*cursor: pointer;*/
-/*}*/
-.index-container-5 .index-container-5-two .active{
+.index-container-5 .index-container-5-two-section:hover{
     color:rgba(255,255,255,1);
     background:rgba(74,134,255,1);
     box-shadow:0rem 0.1rem 0.3rem 0rem rgba(184,190,201,0.32);
+    cursor: pointer;
 }
 .index-container-5 p:nth-child(3){
     margin-top: 0.74rem;
@@ -649,6 +645,20 @@
     vertical-align: bottom;
 }
 /*service*/
+.service-top{
+    border-bottom: 1px solid #E0E0E0;
+    height: 0.9rem;
+}
+.container{
+    margin-left: 20.31%;
+    width: 59.37%;
+    padding: 0;
+}
+.index-container-nav {
+    width: 100%;
+    height: 0.7rem;
+    padding-top: 0.2rem;
+}
 .join-us{
     margin-top: 0.9rem;
     width:100%;
@@ -668,8 +678,64 @@
 .join-us span:nth-child(2){
     font-size:0.24rem;
 }
+.service-step{
+    width: 100%;
+    margin-top: 0.5rem;
+}
+.service-step .service-step-title{
+    text-align: center;
+}
+.service-step .service-step-title img{
+    width:0.64rem;
+    height:0.8rem;
+}
+.service-step .service-step-title p{
+    margin-top: 0.2rem;
+    height: 0.24rem;
+    line-height: 0.24rem;
+    font-size:0.24rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(74,134,255,1);
+}
+.service-step-content {
+    margin-top: 0.4rem;
+    margin-bottom: 0.8rem;
+    border-bottom: 2px solid #C9CACA;
+}
+.service-step-content li{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    padding-bottom: 0.25rem;
+    font-size:0.18rem;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(153,153,153,1);
+}
+.service-step-content li .step{
+    color: #BBBBBB;
+}
+.service-step-content li span{
+    font-size:0.4rem;
+    font-family:MicrosoftYaHei;
+    margin-right: 0.28rem;
+    font-weight:400;
+    color:rgba(187,187,187,1);
+}
+.service-step-content .active li{
+    color: #4A86FF;
+    border-bottom: 2px solid #4A86FF;
+    position: relative;
+    top:2px;
+}
+.service-step-content .active li span{
+    color: #4A86FF;
+}
+.service-content{
+    margin-top: 0.8rem;
+}
 .service .service-content>p{
-    margin-top: 1.6rem;
     font-size:0.2rem;
     font-family:MicrosoftYaHei-Bold;
     font-weight:bold;
@@ -722,9 +788,6 @@
 .order{
     width: 100%;
 }
-.order .order-content{
-    margin-top: 1.6rem;
-}
 .order .order-content .order-content-left{
     width: 7rem;
 }
@@ -743,6 +806,59 @@
 }
 .order .order-content .order-content-left .order-content-left-item{
     margin-bottom: 0.9rem;
+}
+.pagenumber .layui-input-inline{
+    width: 1.2rem!important;
+    margin-right: 0.1rem!important;
+}
+.pagenumber .layui-input-inline input{
+    text-align: center;
+    padding: 0;
+}
+.pagenumber .desc{
+    width: 1.2rem!important;
+    text-align: center;
+    font-size:0.12rem;
+    font-family:MicrosoftYaHeiLight;
+    font-weight:300;
+    color:rgba(153,153,153,1);
+    margin-top: 0.8rem;
+}
+.order .order-content .order-content-left .order-content-left-item .space{
+    width: 1.7rem!important;
+    height: 38px;
+    line-height: 38px;
+}
+.order .order-content .order-content-left .order-content-left-item .space li{
+    display: inline-block;
+    font-size: 0.14rem;
+    font-family: MicrosoftYaHei;
+    font-weight: 400;
+    color: rgba(51,51,51,1);
+    background: rgba(233,240,255,1);
+    border: 0;
+    padding-left: 0.12rem;
+    padding-right: 0.12rem;
+    cursor: pointer;
+}
+.order .order-content .order-content-left .order-content-left-item .space li:nth-child(1){
+   border-radius: 0.05rem 0rem 0rem 0.05rem;
+}
+.order .order-content .order-content-left .order-content-left-item .space li:nth-child(2){
+    border-radius:  0rem 0.05rem 0.05rem 0rem;
+}
+.order .order-content .order-content-left .order-content-left-item .space li.active{
+    background:rgba(74,134,255,1);
+    color:rgba(255,255,255,1);
+}
+.deadline .desc{
+    width: 3rem;
+    text-align: center;
+    font-size:0.12rem;
+    font-family:MicrosoftYaHeiLight;
+    font-weight:300;
+    color:rgba(153,153,153,1);
+    margin-top: 0.8rem;
 }
 .order .order-content .order-content-left .layui-form-label{
     font-size:0.16rem;

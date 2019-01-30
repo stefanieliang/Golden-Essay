@@ -203,7 +203,7 @@
                 </div>
             </div>
             <div class="index-container-5-two">
-                <div class="index-container-5-two-section active">
+                <div class="index-container-5-two-section">
                     <img src="images/index/index-container-5-4.png"/>
                     <p>等级权益</p>
                     <div>障碍等级越高，享受的权益越多！快去发布需求吧！障碍等级越高，享受的权益越多！快去发布需求吧！障碍等级越高，享受的权益越多！快去发布需求吧！</div>
@@ -228,7 +228,21 @@
         <div class="index-bj-7"><img src="images/index/index_bj7.png"/> </div>
     </div>
 </div>
-
+<script>
+    $(".index-container-5-two-section").mouseenter(function (e) {
+        var obj = e.target.querySelector("img");
+        var imgSrc = obj.src;
+        var hoverImgSrc = imgSrc.split(".").join("-hover.");
+        console.log("mouseenter",imgSrc,hoverImgSrc);
+        obj.src = hoverImgSrc;
+    }).mouseleave(function (e) {
+        var obj = e.target.querySelector("img");
+        var hoverImgSrc = obj.src;
+        var imgSrc= hoverImgSrc.split("-hover").join("");
+        console.log("mouseleave",imgSrc,hoverImgSrc);
+        obj.src = imgSrc;
+    });
+</script>
 <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
 <script src="bootstrap-3.3.7/dist/js/bootstrap.js"></script>
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
