@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
 
-    <title>Order</title>
+    <title>论文润色4</title>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="bootstrap-3.3.7/dist/css/bootstrap.css">
@@ -58,17 +58,8 @@
             <div class="order-content-left fl">
                 <form class="layui-form" action="">
                     <div class="order-content-left-item">
-                        <p><span>01.</span>&nbsp;&nbsp;基本信息</p>
                         <div>
                             <div class="layui-form-item">
-                                <div class="layui-inline">
-                                    <label class="layui-form-label">学术水平&nbsp;&nbsp;<img src="images/order/questionMark.png"/></label>
-                                    <div class="layui-input-inline">
-                                        <select name="quiz3">
-                                            <option value=""></option>
-                                        </select>
-                                    </div>
-                                </div>
                                 <div class="layui-inline">
                                     <label class="layui-form-label"><span>*</span>&nbsp;&nbsp;服务类型&nbsp;&nbsp;<img src="images/order/questionMark.png"/></label>
                                     <div class="layui-input-inline">
@@ -77,25 +68,24 @@
                                         </select>
                                     </div>
                                 </div>
+                                <div class="layui-inline">
+                                    <label class="layui-form-label">选择服务&nbsp;&nbsp;<img src="images/order/questionMark.png"/></label>
+                                    <div class="layui-input-inline">
+                                        <select name="quiz3">
+                                            <option value=""></option>
+                                        </select>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="layui-form-item inline">
+                            <div class="layui-form-item">
                                 <div class="layui-inline pagenumber">
-                                    <label class="layui-form-label">写作页数</label>
+                                    <label class="layui-form-label">写作篇数</label>
                                     <div class="layui-input-inline">
                                         <!--<span id="minus">-</span>-->
                                         <input type="tel" name="phone" lay-verify="required|phone" autocomplete="off" class="layui-input">
                                         <!--<span id="plus">+</span>-->
                                     </div>
                                     <p class="desc">5550 words</p>
-                                </div>
-                                <div class="layui-inline">
-                                    <label class="layui-form-label">间距</label>
-                                    <div class="layui-input-inline space">
-                                        <ul>
-                                            <li class="fl" id="simple">Simple</li>
-                                            <li class="active" id="double">Double</li>
-                                        </ul>
-                                    </div>
                                 </div>
                                 <div class="layui-inline deadline">
                                     <label class="layui-form-label">交付时间&nbsp;&nbsp;<img src="images/order/questionMark.png"/></label>
@@ -107,68 +97,46 @@
                                     <p class="desc">我们将于2019年1月8号 9:30之前交付</p>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="order-content-left-item">
-                        <p><span>02.</span>&nbsp;&nbsp;详细信息</p>
-                        <div>
-                            <div class="layui-form-item">
-                                <div class="layui-inline">
-                                    <label class="layui-form-label">引文风格&nbsp;&nbsp;<img src="images/order/questionMark.png"/></label>
-                                    <div class="layui-input-inline">
-                                        <select name="quiz3">
-                                            <option value=""></option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="layui-inline">
-                                    <label class="layui-form-label"><span>*</span>&nbsp;&nbsp;参考文献数目&nbsp;&nbsp;<img src="images/order/questionMark.png"/></label>
-                                    <div class="layui-input-inline">
-                                        <select name="quiz3">
-                                            <option value=""></option>
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="layui-form-item">
-                                <label class="layui-form-label">课程名称&nbsp;&nbsp;<img src="images/order/questionMark.png"/></label>
+                           <div class="layui-form-item layui-form-text">
+                                <label class="layui-form-label">个人要求&nbsp;&nbsp;<img src="images/order/questionMark.png"/></label>
                                 <div class="layui-input-block">
-                                    <input type="text" name="title" lay-verify="title" autocomplete="off" placeholder="请输入标题" class="layui-input">
+                                    <textarea class="layui-textarea"></textarea>
                                 </div>
                             </div>
                             <div class="layui-form-item layui-form-text">
-                                <label class="layui-form-label">订单要求&nbsp;&nbsp;<img src="images/order/questionMark.png"/></label>
+                                <label class="layui-form-label">学校官方要求&nbsp;&nbsp;<img src="images/order/questionMark.png"/></label>
                                 <div class="layui-input-block">
-                                    <textarea placeholder="
-为了写手更准确地理解您的需求，请务必用英文填写！
-
-
-请简明扼要的填写您认为必要的信息。
-如：图书馆数据库访问信息、稿件质量特殊要求（如无特殊要求，稿件交付质量将默认B及以上）等。
-                        " class="layui-textarea"></textarea>
-                                </div>
-                            </div>
-                            <div class="layui-form-item layui-form-text">
-                                <label class="layui-form-label">上传文件&nbsp;&nbsp;<img src="images/order/questionMark.png"/></label>
-                                <div class="layui-upload-drag" id="test10">
-                                    <p><span>Browse</span>&nbsp;&nbsp;or&nbsp;&nbsp;Drag & drop your files heer</p>
+                                    <textarea class="layui-textarea"></textarea>
                                 </div>
                             </div>
                             <div class="layui-form-item">
-                                <div class="layui-inline">
-                                    <label class="layui-form-label">关联订单&nbsp;&nbsp;<img src="images/order/questionMark.png"/></label>
-                                    <div class="layui-input-inline">
-                                        <input type="tel" name="phone" lay-verify="required|phone" autocomplete="off" class="layui-input">
+                                <label class="layui-form-label">相关资料上传&nbsp;&nbsp;<img src="images/order/questionMark.png"/></label>
+                                <section class="upload-file" style=" margin-right: 0.5rem">
+                                    <div class="upload-file-list">
+                                        <table class="upload-file-list-item">
+                                            <tr>
+                                                <td><img src="images/polish/PDF.png"/></td>
+                                                <td>
+                                                    <p>文件名</p>
+                                                    <p>38.62KB</p>
+                                                </td>
+                                                <td>
+                                                    <div class="layui-input-inline">
+                                                        <select>
+                                                            <option value="">选择文件分类</option>
+                                                        </select>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <i class="layui-icon layui-icon-delete"></i>
+                                                </td>
+                                            </tr>
+                                        </table>
                                     </div>
-                                </div>
-                                <div class="layui-inline">
-                                    <label class="layui-form-label">偏好写手&nbsp;&nbsp;<img src="images/order/questionMark.png"/></label>
-                                    <div class="layui-input-inline">
-                                        <select name="quiz3">
-                                            <option value=""></option>
-                                        </select>
+                                    <div class="layui-upload-drag" id="test12">
+                                        <p><span>Browse</span>&nbsp;&nbsp;or&nbsp;&nbsp;Drag & drop your files heer</p>
                                     </div>
-                                </div>
+                                </section>
                             </div>
                         </div>
                     </div>
@@ -176,22 +144,11 @@
             </div>
             <div class="order-content-right fr">
                 <div>
-                    <p>课程名称</p>
-                    <p>学术水平（yrs 1-2）</p>
                     <p>服务类型</p>
-                    <hr>
                     <table id="payTable">
                         <tr>
-                            <td>Pages * 1</td>
-                            <td>$ 13.00</td>
-                        </tr>
-                        <tr>
-                            <td>Slide * 3</td>
-                            <td>$ 6.5 </td>
-                        </tr>
-                        <tr>
-                            <td>Chart * 1</td>
-                            <td>$ 6.5</td>
+                            <td>Piece * 1</td>
+                            <td>$ 233.00</td>
                         </tr>
                         <tr>
                             <td>折扣码</td>
@@ -218,6 +175,81 @@
                     <p><span>To Checkout</span></p>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="index-container" style="height: auto;">
+            <div class="footer-1 index-container-nav">
+                <div class="index-container-nav-left fl">
+                    <img src="images/index/logo.jpg" class="logo"/>
+                    <div>
+                        <p>Golden&nbsp;&nbsp;&nbsp;Essay</p>
+                        <p>北 美 领 先 代 写</p>
+                    </div>
+                </div>
+                <ul class="index-container-nav-left fr" style="height: auto">
+                    <a href="">
+                        <li><img src="images/personal/alipay.png" height="24" width="24"/></li>
+                    </a>
+                    <a href="">
+                        <li><img src="images/personal/wechat.png" height="24" width="24"/></li>
+                    </a>
+                    <a href="">
+                        <li><img src="images/personal/visa.png" height="24" width="24"/></li>
+                    </a>
+                </ul>
+            </div>
+            <div class="footer-2 flex-top-between">
+                <ul>
+                    <li>Company</li>
+                    <a href="">
+                        <li>关于我们</li>
+                    </a>
+                    <a href="">
+                        <li>联系我们</li>
+                    </a>
+                    <a href="">
+                        <li>常见问题解答</li>
+                    </a>
+                    <a href="">
+                        <li>网站范文</li>
+                    </a>
+                </ul>
+                <ul>
+                    <li>Portal</li>
+                    <a href="">
+                        <li>代理登录</li>
+                    </a>
+                    <a href="">
+                        <li>Writers Apply</li>
+                    </a>
+                    <a href="">
+                        <li>Writers Login</li>
+                    </a>
+                </ul>
+                <ul>
+                    <li>Policy</li>
+                    <a href="">
+                        <li>优惠政策</li>
+                    </a>
+                    <a href="">
+                        <li>政策条款</li>
+                    </a>
+                    <a href="">
+                        <li>站点地图</li>
+                    </a>
+                </ul>
+                <ul>
+                    <li>联系方式</li>
+                    <a href="">
+                        <li><img src="images/personal/alipay.png" height="24" width="24"/>&nbsp;&nbsp; <span>123456789@qq.com</span></li>
+                    </a>
+                    <a href="">
+                        <li><img src="images/personal/alipay.png" height="24" width="24"/>&nbsp;&nbsp; <span>GoldenEssay</span></li>
+                    </a>
+                </ul>
+            </div>
+            <p class="footer-3">©2019 Freelance Worldwide</p>
         </div>
     </div>
 </div>

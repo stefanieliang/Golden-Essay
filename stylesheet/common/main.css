@@ -732,7 +732,7 @@
 .service-step-content .active li span{
     color: #4A86FF;
 }
-.service-content{
+.service .service-content{
     margin-top: 0.8rem;
 }
 .service .service-content>p{
@@ -807,7 +807,7 @@
 .order .order-content .order-content-left .order-content-left-item{
     margin-bottom: 0.9rem;
 }
-.pagenumber .layui-input-inline{
+.inline .pagenumber .layui-input-inline{
     width: 1.2rem!important;
     margin-right: 0.1rem!important;
 }
@@ -1822,4 +1822,230 @@
     font-family:MicrosoftYaHei;
     font-weight:bold;
     color:rgba(25,129,255,1);
+}
+/*polish1*/
+.order-content .service-content{
+    margin-right: 0.5rem;
+}
+.order-content .service-content>p{
+    font-size:0.2rem;
+    font-family:MicrosoftYaHei-Bold;
+    font-weight:bold;
+    color:rgba(74,134,255,1);
+    margin-bottom: 0.48rem;
+}
+.order-content .service-content ul{
+    display: flex;
+    justify-content: space-between;
+}
+.order-content .service-content ul li div{
+    width:1.3rem;
+    height:1rem;
+    background:rgba(248,249,251,1);
+    border-radius:0.05rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.order-content .service-content ul li div:hover,.order-content .service-content ul li div.active{
+    background:#E9F0FF;
+    cursor: pointer;
+}
+.order-content .service-content ul li div img{
+    width: 0.3rem;
+    height: 0.3rem;
+}
+.order-content .service-content ul li div p{
+    opacity:0.5;
+    font-size:0.14rem;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+}
+.right-content{
+    width: 4rem;
+}
+.flex-rows{
+    display: flex;
+    justify-content: space-around;
+}
+.price-off{
+    margin-top: 0.5rem;
+}
+.price-off ul li{
+    width:0.55rem;
+    height:0.55rem;
+    background:rgba(237,243,255,1);
+    border-radius:0.05rem;
+    font-size:0.14rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(74,134,255,1);
+}
+.flex-center{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.flex-top-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.flex-column-middle{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.price-off ul li:hover,.price-off ul li.active{
+    cursor: pointer;
+    background:rgba(110,158,255,1);
+    color:rgba(254,254,255,1);
+}
+.price-off p{
+    font-size:0.12rem;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(187,187,187,1);
+    text-align: center;
+    line-height: 0.48rem;
+    height: 0.48rem;
+}
+.upload-payment{
+    width:100%;
+    height:2.2rem;
+    background:rgba(255,255,255,1);
+    border:0.02rem dashed rgba(74,134,255,1);
+    opacity:0.2;
+    border-radius:0.1rem;
+}
+.upload-payment .layui-upload-drag{
+    width: 100%;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+.upload-payment img{
+    width: 0.45rem;
+    height: 0.45rem;
+}
+.upload-payment p{
+    font-size:0.14rem;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(74,134,255,1);
+    opacity:0.7;
+}
+.pay label{
+    font-size:0.14rem;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(74,134,255,1);
+    padding: 0.29rem 0 0 0 ;
+}
+.pay p{
+    width:100%;
+    height:0.4rem;
+    line-height: 0.4rem;
+    background:rgba(110,158,255,1);
+    border-radius:0.05rem;
+    font-size:0.14rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(254,254,254,1);
+    text-align: center;
+    margin-top: 0.3rem;
+}
+.pay .layui-input-inline{
+    width: 100%;
+    margin-right: 0;
+}
+.upload-file-list-item tr td:nth-child(1){
+    width: 10%;
+}
+.upload-file-list-item tr td:nth-child(2),.upload-file-list-item tr td:nth-child(3){
+    width: 30%;
+}
+.upload-file-list-item tr td p:nth-child(1){
+    font-size:0.14rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(51,51,51,1);
+}
+.upload-file-list-item tr td p:nth-child(2){
+    font-size:0.12rem;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(153,153,153,1);
+}
+.upload-file{
+    background: rgba(233,240,255,1);
+    border-radius: 0.05rem;
+    border: 0;
+}
+.upload-file-list{
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 0.25rem;
+    padding-bottom: 0.23rem;
+    border-bottom: 1px solid rgba(106,155,255,0.2);
+}
+.upload-file-list .layui-upload-drag{
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+.upload-file-list .layui-input-inline{
+    height: auto!important;
+}
+.upload-file-list .layui-input-inline .layui-input{
+    background-color: #FFFFFF;
+}
+/*footer*/
+.footer{
+    clear: both;
+    margin-top: 1.72rem;
+    height: 4.87rem;
+    width: 100%;
+}
+.footer .footer-1{
+    height: 1.5rem;
+    border-top: 1px solid #F0F0F0;
+    border-bottom: 1px solid #F0F0F0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0;
+}
+.footer .footer-1 ul li{
+    display: inline-block;
+    margin-left: 0.3rem;
+}
+.footer .footer-2{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #F0F0F0;
+}
+.footer .footer-2 ul li,.footer .footer-2 ul a li span{
+    font-size:0.16rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(51,51,51,1);
+}
+.footer .footer-2 ul a li{
+    font-size:0.14rem;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(102,102,102,1);
+    margin-top: 0.26rem;
+}
+.footer .footer-3{
+    margin: 0.2rem auto;
+    text-align: center;
+    font-size:0.12rem;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(102,102,102,1);
 }
