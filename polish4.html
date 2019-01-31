@@ -61,31 +61,12 @@
                         <div>
                             <div class="layui-form-item">
                                 <div class="layui-inline">
-                                    <label class="layui-form-label"><span>*</span>&nbsp;&nbsp;服务类型&nbsp;&nbsp;<img src="images/order/questionMark.png"/></label>
+                                    <label class="layui-form-label"><span>*</span>&nbsp;&nbsp;选择服务&nbsp;&nbsp;<img src="images/order/questionMark.png"/></label>
                                     <div class="layui-input-inline">
                                         <select name="quiz3">
                                             <option value=""></option>
                                         </select>
                                     </div>
-                                </div>
-                                <div class="layui-inline">
-                                    <label class="layui-form-label">选择服务&nbsp;&nbsp;<img src="images/order/questionMark.png"/></label>
-                                    <div class="layui-input-inline">
-                                        <select name="quiz3">
-                                            <option value=""></option>
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="layui-form-item">
-                                <div class="layui-inline pagenumber">
-                                    <label class="layui-form-label">写作篇数</label>
-                                    <div class="layui-input-inline">
-                                        <!--<span id="minus">-</span>-->
-                                        <input type="tel" name="phone" lay-verify="required|phone" autocomplete="off" class="layui-input">
-                                        <!--<span id="plus">+</span>-->
-                                    </div>
-                                    <p class="desc">5550 words</p>
                                 </div>
                                 <div class="layui-inline deadline">
                                     <label class="layui-form-label">交付时间&nbsp;&nbsp;<img src="images/order/questionMark.png"/></label>
@@ -96,21 +77,37 @@
                                     </div>
                                     <p class="desc">我们将于2019年1月8号 9:30之前交付</p>
                                 </div>
-                            </div>
-                           <div class="layui-form-item layui-form-text">
-                                <label class="layui-form-label">个人要求&nbsp;&nbsp;<img src="images/order/questionMark.png"/></label>
-                                <div class="layui-input-block">
-                                    <textarea class="layui-textarea"></textarea>
+                                <div class="layui-inline">
+                                    <label class="layui-form-label">文稿类型&nbsp;&nbsp;<img src="images/order/questionMark.png"/></label>
+                                    <div class="layui-input-inline">
+                                        <select name="quiz3">
+                                            <option value=""></option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="layui-inline">
+                                    <label class="layui-form-label">文稿风格&nbsp;&nbsp;<img src="images/order/questionMark.png"/></label>
+                                    <div class="layui-input-inline">
+                                        <select name="quiz3">
+                                            <option value=""></option>
+                                        </select>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="layui-form-item layui-form-text">
-                                <label class="layui-form-label">学校官方要求&nbsp;&nbsp;<img src="images/order/questionMark.png"/></label>
+                            <div class="layui-inline">
+                                <label class="layui-form-label">待修改润色文稿上传&nbsp;&nbsp;<img src="images/order/questionMark.png"/></label>
+                                <div class="layui-upload-drag" id="test10">
+                                    <p><span>Browse</span>&nbsp;&nbsp;or&nbsp;&nbsp;Drag & drop your files heer</p>
+                                </div>
+                            </div>
+                           <div class="layui-form-item layui-form-text">
+                                <label class="layui-form-label">要求与备注&nbsp;&nbsp;<img src="images/order/questionMark.png"/></label>
                                 <div class="layui-input-block">
                                     <textarea class="layui-textarea"></textarea>
                                 </div>
                             </div>
                             <div class="layui-form-item">
-                                <label class="layui-form-label">相关资料上传&nbsp;&nbsp;<img src="images/order/questionMark.png"/></label>
+                                <label class="layui-form-label">额外文件上传&nbsp;&nbsp;<img src="images/order/questionMark.png"/></label>
                                 <section class="upload-file" style=" margin-right: 0.5rem">
                                     <div class="upload-file-list">
                                         <table class="upload-file-list-item">
@@ -147,7 +144,7 @@
                     <p>服务类型</p>
                     <table id="payTable">
                         <tr>
-                            <td>Piece * 1</td>
+                            <td>Words* 3000</td>
                             <td>$ 233.00</td>
                         </tr>
                         <tr>
