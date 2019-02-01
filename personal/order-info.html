@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+
+    <title>我的订单-订单信息</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../bootstrap-3.3.7/dist/css/bootstrap.css">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link rel="stylesheet" href="../stylesheet/common/ie10-viewport-bug-workaround.css">
+    <link rel="stylesheet" href="../stylesheet/common/reset.css">
+    <link rel="stylesheet" href="../layui-v2.4.5/css/layui.css">
+    <script src="../javascript/common/viewport.js"></script>
+
+    <link rel="stylesheet" href="../bxslider/jquery.bxslider.css">
+    <link rel="stylesheet" href="../stylesheet/common/main.css">
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+    <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+    <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+    <script src="../bxslider/jquery.bxslider.min.js"></script>
+    <script src="../layui-v2.4.5/layui.js"></script>
+</head>
+<body style="background-color: #F7F8FA">
+<div>
+    <div class="personal-header">
+        <div class="personal-header-container">
+            <div class="personal-header-container-left fl">
+                <img src="../images/index/logo.jpg" class="logo"/>
+                <div>
+                    <p>Golden&nbsp;&nbsp;&nbsp;Essay</p>
+                    <p>北 美 领 先 代 写</p>
+                </div>
+            </div>
+            <div class="personal-header-container-right fr">
+                <ul>
+                    <li class="personal-header-container-right-item">
+                        <a href="">
+                            <img src="../images/personal/customService.png">联系客服
+                        </a>
+                    </li>
+                    <li class="personal-header-container-right-item">
+                        <a href="javascript:;">
+                            8925711@qq.com
+                            <img src="../images/personal/dropdown.png" style="margin-left: 0.05rem;width: 0.07rem;height: 0.04rem"/>
+                        </a>
+                        <dl class="layui-nav-child"> <!-- 二级菜单 -->
+                            <dd><a href="">移动模块</a></dd>
+                            <dd><a href="">后台模版</a></dd>
+                            <dd><a href="">电商平台</a></dd>
+                        </dl>
+                    </li>
+                    <img src="//t.cn/RCzsdCq">
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="personal-container">
+        <div class="personal-sidebar" style="height: 8.8rem;">
+            <ul style="overflow: hidden;">
+                <li>
+                    <a href="">
+                        <img src="../images/personal/member.png"/>我的会员
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="../images/personal/wallet.png"/>我的钱包
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="active">
+                        <img src="../images/personal/order-active.png"/>我的订单
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="../images/personal/promote.png"/>我的推广
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="../images/personal/proxy.png"/>我的代理
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="personal-content">
+            <div class="personal-order">
+                <ul class="personal-tab">
+                    <a href=""><li style="width: 13.19%" class="active">订单信息</li></a>
+                    <a href=""><li style="width: 20.88%">订单消息</li></a>
+                    <a href=""><li style="width: 20.88%">文件列表</li></a>
+                </ul>
+                <div class="personal-order-content">
+                    <div class="personal-paper-title">
+                        <div class="personal-paper-title-left fl">
+                            <p>#282079331</p>
+                            <p>论文标题</p>
+                            <p>Your order is unpaid. Pease check your email and follow the tips to complete thepayment procedure</p>
+                            <p>Deadline: Jan 20, 2019 at 10: 44 PM (if you pay right now)</p>
+                        </div>
+                        <ul class="personal-paper-title-right fr">
+                            <li>待付款</li>
+                            <li>取消订单</li>
+                        </ul>
+                    </div>
+                    <div class="personal-paper-content flex-rows">
+                        <div class="personal-order-content-left fl">
+                            <form class="layui-form" action="">
+                                <div class="layui-form-item">
+                                    <label class="layui-form-label">学术水平</label>
+                                    <div class="layui-input-inline">
+                                        <input type="text" readonly class="layui-input">
+                                    </div>
+                                </div>
+                                <div class="layui-form-item">
+                                    <label class="layui-form-label">服务类型</label>
+                                    <div class="layui-input-inline">
+                                        <input type="text" readonly class="layui-input">
+                                    </div>
+                                </div>
+                                <div class="layui-form-item">
+                                    <label class="layui-form-label">课程名字</label>
+                                    <div class="layui-input-inline">
+                                        <input type="text" readonly class="layui-input">
+                                    </div>
+                                </div>
+                                <div class="layui-form-item">
+                                    <label class="layui-form-label">引文风格</label>
+                                    <div class="layui-input-inline">
+                                        <input type="text" readonly class="layui-input">
+                                    </div>
+                                </div>
+                                <div class="layui-form-item">
+                                    <label class="layui-form-label">参考数目</label>
+                                    <div class="layui-input-inline">
+                                        <input type="text" readonly class="layui-input">
+                                    </div>
+                                </div>
+                                <div class="layui-form-item">
+                                    <label class="layui-form-label">交付时间</label>
+                                    <div class="layui-input-inline">
+                                        <input type="text" readonly class="layui-input" value="2019年01月27号">
+                                    </div>
+                                </div>
+                                <div class="layui-form-item">
+                                    <label class="layui-form-label">文章页数</label>
+                                    <div class="layui-input-inline">
+                                        <input type="text" readonly class="layui-input">
+                                    </div>
+                                </div>
+                                <div class="layui-form-item">
+                                    <label class="layui-form-label">订单总价</label>
+                                    <div class="layui-input-inline">
+                                        <input type="text" readonly class="layui-input">
+                                    </div>
+                                </div>
+                                <div class="submit">确认并支付<span>$26</span></div>
+                            </form>
+                        </div>
+                        <div class="personal-order-content-right fr extra-service">
+                            <p>额外服务</p>
+                            <ul>
+                                <a href="#" id="addPage"><li class="fl"><img src="../images/personal/add-page.png"/>增加页数</li></a>
+                                <a id="addPageHover" class="back" style="display: none" data-method="offset" data-type="auto" data-open="addPageLayer" data-title="增加页数">
+                                    <li class="fl">
+                                        <p>增加页数</p>
+                                        <p>添加额外的页数到</p>
+                                        <p>原文件中</p>
+                                    </li>
+                                </a>
+                                <a href="#" id="ppt"><li class="fr"><img src="../images/personal/ppt.png"/>制作PPT</li></a>
+                                <a id="pptHover" class="back" style="display: none" data-method="offset" data-type="auto" data-open="pptLayer" data-title="制作PPT">
+                                    <li class="fr">
+                                        <p>制作PPT</p>
+                                        <p>为您的订单制作</p>
+                                        <p>PPT</p>
+                                    </li>
+                                </a>
+                                <a href="#" id="table"><li class="fl"><img src="../images/personal/table.png"/>图表和表格</li></a>
+                                <a id="tableHover" class="back" style="display: none" data-method="offset" data-type="auto" data-open="tableLayer" data-title="图表和表格">
+                                    <li class="fl">
+                                        <p>图表和表格</p>
+                                        <p>添加额外图表或表</p>
+                                        <p>格到您的订单中</p>
+                                    </li>
+                                </a>
+                                <a href="#" id="cutTime"><li class="fr"><img src="../images/personal/cut-time.png"/>缩短截止时间</li></a>
+                                <a id="cutTimeHover" class="back" style="display: none" data-method="offset" data-type="auto" data-open="cutTimeLayer">
+                                    <li class="fr">
+                                        <p>缩短截止时间</p>
+                                        <p>选择您需要缩短的</p>
+                                        <p>时间</p>
+                                    </li>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="addPageLayer">
+    <div>选择您需要增加的页数</div>
+    <div>
+        我需要&nbsp;&nbsp;<span id="minusPage">-</span><span id="pageNum">5</span><span id="plusPage">+</span>&nbsp;&nbsp;页
+    </div>
+</div>
+<div id="pptLayer">
+    <div>选择您需要的幻灯片页数</div>
+    <div>
+        我需要&nbsp;&nbsp;<span id="minusPPT">-</span><span id="pptNum">5</span><span id="plusPPT">+</span>&nbsp;&nbsp;页
+    </div>
+</div>
+<div id="tableLayer">
+    <div>添加额外图表或表格到您的订单中</div>
+    <ul>
+        <a href="#"><li class="fl">增加页数</li></a>
+    </ul>
+</div>
+<div id="cutTimeLayer">
+    cutTimeLayer
+</div>
+<script>
+    $("#showPayRecords").on("click",function () {
+        $("#showPayRecords").addClass("active");
+        $("#showOnSaleList").removeClass("active");
+        $("#payRecords").show();
+        $("#onSaleList").hide();
+    });
+    $("#showOnSaleList").on("click",function () {
+        $("#showPayRecords").removeClass("active");
+        $("#showOnSaleList").addClass("active");
+        $("#payRecords").hide();
+        $("#onSaleList").show();
+    });
+    $("#addPage").mouseover(function () {
+        $("#addPage").css("display","none");
+        $("#addPageHover").css("display","block");
+    });
+    $("#addPageHover").mouseleave(function () {
+        $("#addPage").css("display","block");
+        $("#addPageHover").css("display","none");
+    });
+    $("#ppt").mouseover(function () {
+        $("#ppt").css("display","none");
+        $("#pptHover").css("display","block");
+    });
+    $("#pptHover").mouseleave(function () {
+        $("#ppt").css("display","block");
+        $("#pptHover").css("display","none");
+    });
+    $("#table").mouseover(function () {
+        $("#table").css("display","none");
+        $("#tableHover").css("display","block");
+    });
+    $("#tableHover").mouseleave(function () {
+        $("#table").css("display","block");
+        $("#tableHover").css("display","none");
+    });
+    $("#cutTime").mouseover(function () {
+        $("#cutTime").css("display","none");
+        $("#cutTimeHover").css("display","block");
+    });
+    $("#cutTimeHover").mouseleave(function () {
+        $("#cutTime").css("display","block");
+        $("#cutTimeHover").css("display","none");
+    });
+    //增加页数
+    $("#minusPage").on("click",function () {
+        //减少页数
+        var pageNum = $("#pageNum")[0].innerText;
+        if(pageNum>0){
+            pageNum--;
+            $("#pageNum")[0].innerText = pageNum;
+        }
+    });
+    $("#plusPage").on("click",function () {
+        //增加页数
+        var pageNum = $("#pageNum")[0].innerText;
+        pageNum++;
+        $("#pageNum")[0].innerText = pageNum;
+    });
+    //增加ppt
+    $("#minusPPT").on("click",function () {
+        //减少页数
+        var pptNum = $("#pptNum")[0].innerText;
+        if(pptNum>0){
+            pptNum--;
+            $("#pptNum")[0].innerText = pptNum;
+        }
+    });
+    $("#plusPPT").on("click",function () {
+        //增加页数
+        var pptNum = $("#pptNum")[0].innerText;
+        pptNum++;
+        $("#pptNum")[0].innerText = pptNum;
+    });
+</script>
+<script>
+    layui.use('layer', function(){ //独立版的layer无需执行这一句
+        var $ = layui.jquery, layer = layui.layer; //独立版的layer无需执行这一句
+
+        //触发事件
+        var active = {
+            offset: function(othis) {
+                var type = othis.data('type')
+                    , open = othis.data('open')
+                    , title = othis.data('title');
+
+                layer.open({
+                    type: 1
+                    ,title:title
+                    , offset: type //具体配置参考：http://www.layui.com/doc/modules/layer.html#offset
+                    , id: 'layerDemo' + type //防止重复弹出
+                    , content: $("#"+open)
+                    ,area: '6rem'
+                    , btn: '确定'
+                    , btnAlign: 'r' //按钮居中
+                    , shade: 0 //不显示遮罩
+                    , yes: function () {
+                        layer.closeAll();
+                    }
+                });
+            }
+        };
+
+        $('.extra-service .back').on('click', function(){
+            var othis = $(this), method = othis.data('method');
+            console.log(othis);
+            active[method] ? active[method].call(this, othis) : '';
+        });
+
+    });
+</script>
+<!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+<script src="../bootstrap-3.3.7/dist/js/bootstrap.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="../javascript/common/ie10-viewport-bug-workaround.js"></script>
+<script src="../javascript/index.js"></script>
+</body>
+</html>

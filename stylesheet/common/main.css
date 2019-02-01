@@ -1544,6 +1544,8 @@
 .personal-order .personal-tab .active{
     color:rgba(25,129,255,1);
     border-bottom: 2px solid #1981FF;
+    position: relative;
+    top: 1px;
 }
 .personal-order .personal-tab #orderNow{
     margin-left: 0.6rem;
@@ -2048,4 +2050,198 @@
     font-family:MicrosoftYaHei;
     font-weight:400;
     color:rgba(102,102,102,1);
+}
+/*我的订单-订单消息*/
+.personal-paper-title{
+    width:100%;
+    height:1.6rem;
+    margin-top: 0.3rem;
+    background:rgba(255,255,255,1);
+}
+.personal-paper-title-left{
+    width: 60%;
+    height: 1.6rem;
+    text-align: left;
+    padding-left: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+}
+.personal-paper-title-left p:nth-child(1){
+    font-size:0.12rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(153,153,153,1);
+}
+.personal-paper-title-left p:nth-child(2){
+    font-size:0.18rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(51,51,51,1);
+}
+.personal-paper-title-left p:nth-child(3){
+    font-size:0.12rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(102,102,102,1);
+}
+.personal-paper-title-left p:nth-child(4){
+    font-size:0.12rem;
+    font-family:MicrosoftYaHeiLight;
+    font-weight:bold;
+    font-style:italic;
+    color:rgba(153,153,153,1);
+    opacity:0.8;
+}
+.personal-paper-title-right{
+    width: 40%;
+    height: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.personal-paper-title-right li:nth-child(1) {
+    width:1.2rem;
+    height:0.4rem;
+    background:rgba(74,134,255,1);
+    opacity:0.2;
+    font-size:0.14rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(74,134,255,1);
+}
+.personal-paper-title-right li:nth-child(2){
+    font-size:0.14rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(255,86,86,1);
+    margin-right: 0.3rem;
+}
+.personal-paper-content{
+    margin-top: 0.3rem;
+}
+.personal-order-content-left{
+    margin-right: 0.3rem;
+    width:50%;
+    background:rgba(255,255,255,1);
+    padding-top: 0.4rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 0.4rem;
+}
+.personal-order-content-left .layui-form-label{
+    font-size:0.14rem;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(74,134,255,1);
+    padding:0 0.19rem 0 0;
+}
+.personal-order-content-left .layui-input-inline{
+    width: 2.4rem;
+    margin-right: 0;
+}
+.personal-order-content-left .layui-input{
+    height: 0.32rem;
+    line-height: 0.32rem;
+}
+.personal-order-content-left .submit{
+    height: 0.4rem;
+    margin-right: 0.14rem;
+    margin-left: 0.2rem;
+    height:0.4rem;
+    line-height: 0.4rem;
+    background:rgba(74,134,255,1);
+    border-radius:0.05rem;
+    font-size:0.14rem;
+    font-family:MicrosoftYaHei-Bold;
+    font-weight:bold;
+    color:rgba(255,255,255,1);
+    text-align: center;
+}
+.personal-order-content-right{
+    width:50%;
+    height:6.1rem;
+    background:rgba(255,255,255,1);
+    padding-top: 0.3rem;
+    padding-left: 0.35rem;
+    padding-right: 0.35rem;
+    padding-bottom: 0.4rem;
+}
+.extra-service p{
+    font-size:0.14rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(51,51,51,1);
+    text-align: left;
+}
+.extra-service ul li{
+    font-size:0.14rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(51,51,51,1);
+    width:1.65rem;
+    height:1.65rem;
+    background:rgba(233,240,255,1);
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+.extra-service ul li img{
+    width: 0.4rem;
+    height: 0.4rem;
+}
+.extra-service .back{
+    background:rgba(74,134,255,1);
+    cursor: pointer;
+}
+.extra-service .back p{
+    font-size:0.12rem;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    /*opacity:0.8;*/
+}
+.extra-service .back p:nth-child(1){
+    font-size:0.16rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(255,255,255,1);
+}
+#addPageLayer,#pptLayer,#tableLayer,#cutTimeLayer{
+    margin: 20px;
+}
+#addPageLayer div:nth-child(1),#pptLayer div:nth-child(1),#tableLayer div:nth-child(1),#cutTimeLayer div:nth-child(1){
+    height:0.54rem;
+    line-height: 0.54rem;
+    background:rgba(255,255,255,1);
+    border-left: 4px solid #4A86FF;
+    font-size:0.14rem;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    padding-left: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+#addPageLayer div:nth-child(2),#pptLayer div:nth-child(2){
+    text-align: center;
+    font-size:0.14rem;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(102,102,102,1);
+}
+#addPageLayer div:nth-child(2) span,#pptLayer div:nth-child(2) span{
+    display: inline-block;
+    color:#FFFFFF;
+    width:0.4rem;
+    height:0.3rem;
+    line-height: 0.3rem;
+    background:rgba(74,134,255,1);
+    opacity:0.5;
+}
+#addPageLayer div:nth-child(2) span:nth-child(2n+1),#pptLayer div:nth-child(2) span:nth-child(2n+1){
+    cursor: pointer;
 }
