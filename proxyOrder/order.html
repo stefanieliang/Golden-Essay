@@ -6,16 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
 
-    <title>Order</title>
+    <title>代理下单-论文定制</title>
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="bootstrap-3.3.7/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../bootstrap-3.3.7/dist/css/bootstrap.css">
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link rel="stylesheet" href="stylesheet/common/ie10-viewport-bug-workaround.css">
-    <link rel="stylesheet" href="stylesheet/common/reset.css">
-    <link rel="stylesheet" href="layui-v2.4.5/css/layui.css">
-    <script src="javascript/common/viewport.js"></script>
-    <link rel="stylesheet" href="stylesheet/common/main.css">
+    <link rel="stylesheet" href="../stylesheet/common/ie10-viewport-bug-workaround.css">
+    <link rel="stylesheet" href="../stylesheet/common/reset.css">
+    <link rel="stylesheet" href="../layui-v2.4.5/css/layui.css">
+    <script src="../javascript/common/viewport.js"></script>
+    <link rel="stylesheet" href="../stylesheet/common/main.css">
     <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
     <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
     <!--[if lt IE 9]>
@@ -31,7 +31,7 @@
         <div class="container">
             <div class="index-container-nav">
                 <div class="index-container-nav-left fl">
-                    <img src="images/index/logo.jpg" class="logo"/>
+                    <img src="../images/index/logo.jpg" class="logo"/>
                     <div>
                         <p>Golden&nbsp;&nbsp;&nbsp;Essay</p>
                         <p>北 美 领 先 代 写</p>
@@ -41,28 +41,42 @@
         </div>
     </div>
     <div class="index-container" style="height: auto">
-        <div class="service-step">
-            <div class="service-step-title">
-                <img src="images/service/service-1.png" alt="">
-                <p>填写订单</p>
-            </div>
-            <ul class="service-step-content">
-                <a href=""><li><span>1</span>选择服务</li></a>
-                <li class="step" style="width: 2%">></li>
-                <a href="" class="active"><li><span>2</span>填写订单详情</li></a>
-                <li class="step" style="width: 2%">></li>
-                <a href=""><li><span>3</span>支付成功</li></a>
-            </ul>
-        </div>
-        <div class="order-content">
+        <div class="order-content" style="margin-top: 0.5rem;">
             <div class="order-content-left fl">
+                <div class="service-content">
+                    <ul>
+                        <li>
+                            <div class="active">
+                                <img src="../images/service/service-1.png"/>
+                                <p>论文定制</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="../images/service/service-2.png"/>
+                                <p>论文润色</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="../images/service/service-3.png"/>
+                                <p>留学申请</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="../images/service/service-4.png"/>
+                                <p>求职培训</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
                 <form class="layui-form" action="">
                     <div class="order-content-left-item">
-                        <p><span>01.</span>&nbsp;&nbsp;基本信息</p>
                         <div>
                             <div class="layui-form-item">
                                 <div class="layui-inline">
-                                    <label class="layui-form-label">学术水平&nbsp;&nbsp;<img src="images/order/questionMark.png"/></label>
+                                    <label class="layui-form-label">学术水平&nbsp;&nbsp;<img src="../images/order/questionMark.png"/></label>
                                     <div class="layui-input-inline">
                                         <select name="quiz3">
                                             <option value=""></option>
@@ -70,7 +84,7 @@
                                     </div>
                                 </div>
                                 <div class="layui-inline">
-                                    <label class="layui-form-label"><span>*</span>&nbsp;&nbsp;服务类型&nbsp;&nbsp;<img src="images/order/questionMark.png"/></label>
+                                    <label class="layui-form-label"><span>*</span>&nbsp;&nbsp;服务类型&nbsp;&nbsp;<img src="../images/order/questionMark.png"/></label>
                                     <div class="layui-input-inline">
                                         <select name="quiz3">
                                             <option value=""></option>
@@ -98,7 +112,7 @@
                                     </div>
                                 </div>
                                 <div class="layui-inline deadline">
-                                    <label class="layui-form-label">交付时间&nbsp;&nbsp;<img src="images/order/questionMark.png"/></label>
+                                    <label class="layui-form-label">交付时间&nbsp;&nbsp;<img src="../images/order/questionMark.png"/></label>
                                     <div class="layui-input-inline">
                                         <select name="quiz3">
                                             <option value="">2018年12月27号</option>
@@ -107,67 +121,57 @@
                                     <p class="desc">我们将于2019年1月8号 9:30之前交付</p>
                                 </div>
                             </div>
+                            <div class="layui-form-item">
+
+                                <div class="layui-inline">
+                                    <label class="layui-form-label">引文风格&nbsp;&nbsp;<img src="../images/order/questionMark.png"/></label>
+                                    <div class="layui-input-inline">
+                                        <select name="quiz3">
+                                            <option value=""></option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="layui-inline">
+                                    <label class="layui-form-label"><span>*</span>&nbsp;&nbsp;参考文献数目&nbsp;&nbsp;<img src="../images/order/questionMark.png"/></label>
+                                    <div class="layui-input-inline">
+                                        <select name="quiz3">
+                                            <option value=""></option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="order-content-left-item">
-                        <p><span>02.</span>&nbsp;&nbsp;详细信息</p>
-                        <div>
-                            <div class="layui-form-item">
-                                <div class="layui-inline">
-                                    <label class="layui-form-label">引文风格&nbsp;&nbsp;<img src="images/order/questionMark.png"/></label>
-                                    <div class="layui-input-inline">
-                                        <select name="quiz3">
-                                            <option value=""></option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="layui-inline">
-                                    <label class="layui-form-label"><span>*</span>&nbsp;&nbsp;参考文献数目&nbsp;&nbsp;<img src="images/order/questionMark.png"/></label>
-                                    <div class="layui-input-inline">
-                                        <select name="quiz3">
-                                            <option value=""></option>
-                                        </select>
-                                    </div>
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">课程名称&nbsp;&nbsp;<img src="../images/order/questionMark.png"/></label>
+                            <div class="layui-input-block">
+                                <input type="text" name="title" lay-verify="title" autocomplete="off" placeholder="请输入标题" class="layui-input">
+                            </div>
+                        </div>
+                        <div class="layui-form-item layui-form-text">
+                            <label class="layui-form-label">订单要求&nbsp;&nbsp;<img src="../images/order/questionMark.png"/></label>
+                            <div class="layui-input-block">
+                                    <textarea class="layui-textarea"></textarea>
+                            </div>
+                        </div>
+                        <div class="layui-form-item layui-form-text">
+                            <label class="layui-form-label">上传文件&nbsp;&nbsp;<img src="../images/order/questionMark.png"/></label>
+                            <div class="layui-upload-drag" id="test10">
+                                <p><span>Browse</span>&nbsp;&nbsp;or&nbsp;&nbsp;Drag & drop your files heer</p>
+                            </div>
+                        </div>
+                        <div class="layui-form-item">
+                            <div class="layui-inline">
+                                <label class="layui-form-label">关联订单&nbsp;&nbsp;<img src="../images/order/questionMark.png"/></label>
+                                <div class="layui-input-inline">
+                                    <input type="tel" name="phone" lay-verify="required|phone" autocomplete="off" class="layui-input">
                                 </div>
                             </div>
-                            <div class="layui-form-item">
-                                <label class="layui-form-label">课程名称&nbsp;&nbsp;<img src="images/order/questionMark.png"/></label>
-                                <div class="layui-input-block">
-                                    <input type="text" name="title" lay-verify="title" autocomplete="off" placeholder="请输入标题" class="layui-input">
-                                </div>
-                            </div>
-                            <div class="layui-form-item layui-form-text">
-                                <label class="layui-form-label">订单要求&nbsp;&nbsp;<img src="images/order/questionMark.png"/></label>
-                                <div class="layui-input-block">
-                                    <textarea placeholder="
-为了写手更准确地理解您的需求，请务必用英文填写！
-
-
-请简明扼要的填写您认为必要的信息。
-如：图书馆数据库访问信息、稿件质量特殊要求（如无特殊要求，稿件交付质量将默认B及以上）等。
-                        " class="layui-textarea"></textarea>
-                                </div>
-                            </div>
-                            <div class="layui-form-item layui-form-text">
-                                <label class="layui-form-label">上传文件&nbsp;&nbsp;<img src="images/order/questionMark.png"/></label>
-                                <div class="layui-upload-drag" id="test10">
-                                    <p><span>Browse</span>&nbsp;&nbsp;or&nbsp;&nbsp;Drag & drop your files heer</p>
-                                </div>
-                            </div>
-                            <div class="layui-form-item">
-                                <div class="layui-inline">
-                                    <label class="layui-form-label">关联订单&nbsp;&nbsp;<img src="images/order/questionMark.png"/></label>
-                                    <div class="layui-input-inline">
-                                        <input type="tel" name="phone" lay-verify="required|phone" autocomplete="off" class="layui-input">
-                                    </div>
-                                </div>
-                                <div class="layui-inline">
-                                    <label class="layui-form-label">偏好写手&nbsp;&nbsp;<img src="images/order/questionMark.png"/></label>
-                                    <div class="layui-input-inline">
-                                        <select name="quiz3">
-                                            <option value=""></option>
-                                        </select>
-                                    </div>
+                            <div class="layui-inline">
+                                <label class="layui-form-label">偏好写手&nbsp;&nbsp;<img src="../images/order/questionMark.png"/></label>
+                                <div class="layui-input-inline">
+                                    <select name="quiz3">
+                                        <option value=""></option>
+                                    </select>
                                 </div>
                             </div>
                         </div>
@@ -176,11 +180,7 @@
             </div>
             <div class="order-content-right fr">
                 <div>
-                    <p>课程名称</p>
-                    <p>学术水平（yrs 1-2）</p>
-                    <p>服务类型</p>
-                    <hr>
-                    <table id="payTable">
+                    <table id="payTable" style="margin-top: 0.3rem;">
                         <tr>
                             <td>Pages * 1</td>
                             <td>$ 13.00</td>
@@ -191,37 +191,45 @@
                         </tr>
                         <tr>
                             <td>Chart * 1</td>
-                            <td>$ 6.5</td>
-                        </tr>
-                        <tr>
-                            <td>折扣码</td>
-                            <td>满200-20</td>
+                            <td>$ 6.5 </td>
                         </tr>
                     </table>
                     <hr>
                     <p><span>总价</span><span class="count">-$ 0.00</span></p>
                 </div>
-                <div class="pay layui-form">
-                    <div class="layui-input-inline">
-                        <select name="quiz3">
-                            <option value="">
-                                <img src="images/order/Paypal.png" height="20" width="85"/>
-                            </option>
-                        </select>
-                    </div>
-                    <img src="" alt="">
+            </div>
+            <div class="right-content fr">
+                <div class="price-off">
+                    <ul class="flex-rows">
+                        <li class="flex-center">-10%</li>
+                        <li class="flex-center">-5%</li>
+                        <li class="flex-center active">5%</li>
+                        <li class="flex-center">10%</li>
+                    </ul>
+                    <p>减少价格务必通知主管</p>
                 </div>
-                <div>
-                    <div class="layui-form">
-                        <input type="checkbox" name="" title="同意Goldenessay 用户条款及隐私协议" lay-skin="primary">
+                <div class="upload-payment flex-column-middle">
+                    <div class="layui-upload-drag" id="test11">
+                        <img src="../images/google.png"/>
+                        <p>上传付款截图</p>
                     </div>
-                    <p><span>To Checkout</span></p>
                 </div>
+                <form class="layui-form pay" action="">
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">付款方式：</label>
+                        <div class="layui-input-inline">
+                            <select>
+                                <option value="">微信支付</option>
+                            </select>
+                        </div>
+                    </div>
+                    <p><span>确认</span></p>
+                </form>
             </div>
         </div>
     </div>
 </div>
-<script src="layui-v2.4.5/layui.js"></script>
+<script src="../layui-v2.4.5/layui.js"></script>
 <script>
     $("#simple").on("click",function () {
         $("#simple").addClass("active");
@@ -248,13 +256,22 @@
                     console.log(res)
                 }
             });
+
+        //拖拽上传
+        upload.render({
+            elem: '#test11'
+            , url: '/upload/'
+            , done: function (res) {
+                console.log(res)
+            }
+        });
     });
 </script>
 
         <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
-<script src="bootstrap-3.3.7/dist/js/bootstrap.js"></script>
+<script src="../bootstrap-3.3.7/dist/js/bootstrap.js"></script>
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-<script src="javascript/common/ie10-viewport-bug-workaround.js"></script>
-<script src="javascript/order.js"></script>
+<script src="../javascript/common/ie10-viewport-bug-workaround.js"></script>
+<script src="../javascript/order.js"></script>
 </body>
 </html>
