@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
 
-    <title>我的订单-订单信息</title>
+    <title>我的订单-订单消息</title>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="../bootstrap-3.3.7/dist/css/bootstrap.css">
@@ -64,7 +64,7 @@
         </div>
     </div>
     <div class="personal-container">
-        <div class="personal-sidebar" style="height: 8.8rem;">
+        <div class="personal-sidebar" style="height: 10.2rem;">
             <ul style="overflow: hidden;">
                 <li>
                     <a href="">
@@ -96,8 +96,8 @@
         <div class="personal-content">
             <div class="personal-order">
                 <ul class="personal-tab">
-                    <a href=""><li style="width: 13.19%" class="active">订单信息</li></a>
-                    <a href=""><li style="width: 20.88%">订单消息</li></a>
+                    <a href=""><li style="width: 13.19%">订单信息</li></a>
+                    <a href=""><li style="width: 20.88%" class="active">订单消息</li></a>
                     <a href=""><li style="width: 20.88%">文件列表</li></a>
                 </ul>
                 <div class="personal-order-content">
@@ -113,96 +113,14 @@
                             <li>取消订单</li>
                         </ul>
                     </div>
-                    <div class="personal-paper-content flex-rows">
-                        <div class="personal-order-content-left fl">
-                            <form class="layui-form" action="">
-                                <div class="layui-form-item">
-                                    <label class="layui-form-label">学术水平</label>
-                                    <div class="layui-input-inline">
-                                        <input type="text" readonly class="layui-input">
-                                    </div>
-                                </div>
-                                <div class="layui-form-item">
-                                    <label class="layui-form-label">服务类型</label>
-                                    <div class="layui-input-inline">
-                                        <input type="text" readonly class="layui-input">
-                                    </div>
-                                </div>
-                                <div class="layui-form-item">
-                                    <label class="layui-form-label">课程名字</label>
-                                    <div class="layui-input-inline">
-                                        <input type="text" readonly class="layui-input">
-                                    </div>
-                                </div>
-                                <div class="layui-form-item">
-                                    <label class="layui-form-label">引文风格</label>
-                                    <div class="layui-input-inline">
-                                        <input type="text" readonly class="layui-input">
-                                    </div>
-                                </div>
-                                <div class="layui-form-item">
-                                    <label class="layui-form-label">参考数目</label>
-                                    <div class="layui-input-inline">
-                                        <input type="text" readonly class="layui-input">
-                                    </div>
-                                </div>
-                                <div class="layui-form-item">
-                                    <label class="layui-form-label">交付时间</label>
-                                    <div class="layui-input-inline">
-                                        <input type="text" readonly class="layui-input" value="2019年01月27号">
-                                    </div>
-                                </div>
-                                <div class="layui-form-item">
-                                    <label class="layui-form-label">文章页数</label>
-                                    <div class="layui-input-inline">
-                                        <input type="text" readonly class="layui-input">
-                                    </div>
-                                </div>
-                                <div class="layui-form-item">
-                                    <label class="layui-form-label">订单总价</label>
-                                    <div class="layui-input-inline">
-                                        <input type="text" readonly class="layui-input">
-                                    </div>
-                                </div>
-                                <div class="submit">确认并支付<span>$26</span></div>
-                            </form>
+                    <div class="personal-msg">
+                        <div class="personal-msg-item">
+
+
                         </div>
-                        <div class="personal-order-content-right fr extra-service">
-                            <p>额外服务</p>
-                            <ul>
-                                <a href="#" id="addPage"><li class="fl"><img src="../images/personal/add-page.png"/>增加页数</li></a>
-                                <a id="addPageHover" class="back" style="display: none" data-method="offset" data-type="auto" data-open="addPageLayer" data-title="增加页数">
-                                    <li class="fl">
-                                        <p>增加页数</p>
-                                        <p>添加额外的页数到</p>
-                                        <p>原文件中</p>
-                                    </li>
-                                </a>
-                                <a href="#" id="ppt"><li class="fr"><img src="../images/personal/ppt.png"/>制作PPT</li></a>
-                                <a id="pptHover" class="back" style="display: none" data-method="offset" data-type="auto" data-open="pptLayer" data-title="制作PPT">
-                                    <li class="fr">
-                                        <p>制作PPT</p>
-                                        <p>为您的订单制作</p>
-                                        <p>PPT</p>
-                                    </li>
-                                </a>
-                                <a href="#" id="table"><li class="fl"><img src="../images/personal/table.png"/>图表和表格</li></a>
-                                <a id="tableHover" class="back" style="display: none" data-method="offset" data-type="auto" data-open="tableLayer" data-title="图表和表格">
-                                    <li class="fl">
-                                        <p>图表和表格</p>
-                                        <p>添加额外图表或表</p>
-                                        <p>格到您的订单中</p>
-                                    </li>
-                                </a>
-                                <a href="#" id="cutTime"><li class="fr"><img src="../images/personal/cut-time.png"/>缩短截止时间</li></a>
-                                <a id="cutTimeHover" class="back" style="display: none" data-method="offset" data-type="auto" data-open="cutTimeLayer" data-title="缩短截止时间">
-                                    <li class="fr">
-                                        <p>缩短截止时间</p>
-                                        <p>选择您需要缩短的</p>
-                                        <p>时间</p>
-                                    </li>
-                                </a>
-                            </ul>
+                        <div class="send-msg">
+
+
                         </div>
                     </div>
                 </div>
@@ -350,6 +268,27 @@
             var othis = $(this), method = othis.data('method');
             console.log(othis);
             active[method] ? active[method].call(this, othis) : '';
+        });
+
+    });
+</script>
+<script>
+    layui.use(['form', 'layedit', 'laydate','upload'], function() {
+        var form = layui.form
+            , layer = layui.layer
+            , layedit = layui.layedit
+            , laydate = layui.laydate;
+
+        var $ = layui.jquery
+            , upload = layui.upload;
+
+        //拖拽上传
+        upload.render({
+            elem: '#upload'
+            , url: '/upload/'
+            , done: function (res) {
+                console.log(res)
+            }
         });
 
     });

@@ -1059,7 +1059,7 @@
     position: relative;
     display: inline-block;
     vertical-align: middle;
-    line-height: 60px;
+    line-height: 0.9rem;
 }
 .personal-header-container-right-item img{
     width: 0.2rem;
@@ -1522,7 +1522,7 @@
 
 /*我的订单*/
 .personal-order .personal-tab{
-    border-bottom: 1px solid #E0E0E0;
+    border-bottom: 0.01rem solid #E0E0E0;
 }
 .personal-order .personal-tab li{
     font-size:0.18rem;
@@ -1543,9 +1543,9 @@
 }
 .personal-order .personal-tab .active{
     color:rgba(25,129,255,1);
-    border-bottom: 2px solid #1981FF;
+    border-bottom: 0.02rem solid #1981FF;
     position: relative;
-    top: 1px;
+    top: 0.01rem;
 }
 .personal-order .personal-tab #orderNow{
     margin-left: 0.6rem;
@@ -2162,14 +2162,13 @@
 }
 .personal-order-content-right{
     width:50%;
-    height:6.1rem;
     background:rgba(255,255,255,1);
     padding-top: 0.3rem;
     padding-left: 0.35rem;
     padding-right: 0.35rem;
     padding-bottom: 0.4rem;
 }
-.extra-service p{
+.extra-service p,.upload-area p,.download-area p{
     font-size:0.14rem;
     font-family:MicrosoftYaHei;
     font-weight:bold;
@@ -2224,6 +2223,7 @@
     font-weight:400;
     color:rgba(51,51,51,1);
     padding-left: 0.3rem;
+    padding-right: 0.3rem;
     margin-bottom: 0.3rem;
 }
 #addPageLayer div:nth-child(2),#pptLayer div:nth-child(2){
@@ -2244,4 +2244,128 @@
 }
 #addPageLayer div:nth-child(2) span:nth-child(2n+1),#pptLayer div:nth-child(2) span:nth-child(2n+1){
     cursor: pointer;
+}
+#tableLayer ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#tableLayer ul li{
+    width:1.45rem;
+    height:1.45rem;
+    background:rgba(255,255,255,1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size:0.14rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(51,51,51,1);
+}
+#cutTimeLayer ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#cutTimeLayer ul li{
+    width:0.7rem;
+    height:0.7rem;
+    background:rgba(255,255,255,1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size:0.14rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(51,51,51,1);
+}
+#cutTimeLayer ul li:hover{
+    background:rgba(74,134,255,1);
+    opacity:0.8;
+    color:rgba(255,255,255,1);
+}
+/*我的订单-文件列表*/
+.upload-area,.download-area{
+    padding: 0.3rem;
+    margin-bottom: 0.88rem;
+}
+.upload-area>p,.download-area>p{
+    margin-bottom: 0.26rem;
+}
+.file-item{
+    width:100%;
+    height:0.7rem;
+    background:rgba(233,240,255,1);
+    border-radius:0.05rem;
+    margin-bottom: 0.2rem;
+}
+.file-item tr td:nth-child(1) img{
+    width: 0.3rem;
+    height: 0.3rem;
+    margin-left: 0.2rem;
+    margin-right: 0.15rem;
+}
+.file-item tr td:nth-child(2) p:nth-child(1){
+    font-size:0.14rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(51,51,51,1);
+}
+.file-item tr td:nth-child(2) p:nth-child(2){
+    font-size:0.12rem;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(153,153,153,1);
+}
+.file-item tr td:nth-child(3){
+    font-size:0.14rem;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(102,102,102,1);
+}
+.file-item tr td:nth-child(4) img{
+    width: 0.14rem;
+    height: 0.14rem;
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+}
+.upload-item{
+    width:100%;
+    height:0.7rem;
+    background:rgba(255,255,255,1);
+    border:0.02rem dashed rgba(74,134,255,1);
+    opacity:0.2;
+    border-radius:0.05rem;
+    text-align: center;
+}
+.upload-item img{
+    width: 0.15rem;
+    height: 0.15rem;
+    margin-right: 0.15rem;
+}
+.upload-item .layui-upload-drag{
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    padding-top: 0.22rem;
+    padding-bottom: 0.22rem;
+    background-color: #FFFFFF;
+}
+/*我的订单-订单消息*/
+.personal-msg{
+    margin-top: 0.3rem;
+    width: 100%;
+}
+.personal-msg-item{
+    width:100%;
+    height:2.5rem;
+    background:rgba(255,255,255,1);
+    margin-bottom: 0.2rem;
+}
+.send-msg{
+    width:100%;
+    height:1.5rem;
+    background:rgba(255,255,255,1);
 }
