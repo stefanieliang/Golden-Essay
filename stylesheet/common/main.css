@@ -1587,45 +1587,51 @@
 .personal-order-content .personal-order-content-item div{
     float: left;
 }
-.personal-order-content .personal-order-content-item .order-state .order-state-bg{
-    width:0.8rem;
-    height:0.8rem;
-    margin-left: 0.26rem;
-    border-radius:50%;
-}
 .personal-order-content .personal-order-content-item .order-state .order-state-bg p{
     font-size:0.18rem;
     font-family:MicrosoftYaHei-Bold;
     font-weight:bold;
 }
-.personal-order-content .personal-order-content-item .order-state-done{
+.personal-order-content .personal-order-content-item .order-state-done .order-state-bg{
     filter:Alpha(opacity=50);
     position:static; /* IE6、7、8只能设置position:static(默认属性) ，否则会导致子元素继承Alpha值 */
     *zoom:1; /* 激活IE6、7的haslayout属性，让它读懂Alpha */
-    background:rgba(107,212,43,1);
-    opacity:0.1;
+    background:rgba(107,212,43,0.1);
+    width:0.8rem;
+    height:0.8rem;
+    line-height: 0.8rem;
+    margin-left: 0.26rem;
+    border-radius:50%;
 }
 .personal-order-content .personal-order-content-item .order-state-done .order-state-bg p{
     color:rgba(102,192,47,1);
     position: relative;/* 设置子元素为相对定位，可让子元素不继承Alpha值 */
 }
-.personal-order-content .personal-order-content-item .order-state-handing{
+.personal-order-content .personal-order-content-item .order-state-handing .order-state-bg{
     filter:Alpha(opacity=50);
     position:static; /* IE6、7、8只能设置position:static(默认属性) ，否则会导致子元素继承Alpha值 */
     *zoom:1; /* 激活IE6、7的haslayout属性，让它读懂Alpha */
-    background:#4A86FF;
-    opacity:0.1;
+    background:rgba(74,134,255,0.1);
+    width:0.8rem;
+    height:0.8rem;
+    line-height: 0.8rem;
+    margin-left: 0.26rem;
+    border-radius:50%;
 }
 .personal-order-content .personal-order-content-item .order-state-handing .order-state-bg p{
     color:#4A86FF;
     position: relative;/* 设置子元素为相对定位，可让子元素不继承Alpha值 */
 }
-.personal-order-content .personal-order-content-item .order-state-unpay{
+.personal-order-content .personal-order-content-item .order-state-unpay .order-state-bg{
     filter:Alpha(opacity=50);
     position:static; /* IE6、7、8只能设置position:static(默认属性) ，否则会导致子元素继承Alpha值 */
     *zoom:1; /* 激活IE6、7的haslayout属性，让它读懂Alpha */
-    background:#FFAE06;
-    opacity:0.1;
+    background:rgba(255,174,6,0.1);
+    width:0.8rem;
+    height:0.8rem;
+    line-height: 0.8rem;
+    margin-left: 0.26rem;
+    border-radius:50%;
 }
 .personal-order-content .personal-order-content-item .order-state-unpay .order-state-bg p{
     color:#FFAE06;
@@ -2103,14 +2109,28 @@
     align-items: flex-end;
 }
 .personal-paper-title-right li:nth-child(1) {
-    width:1.2rem;
+    width:1.4rem;
     height:0.4rem;
-    background:rgba(74,134,255,1);
-    opacity:0.2;
+    line-height: 0.4rem;
+    text-align: right;
+    padding-right: 0.3rem;
+    background:rgba(74,134,255,0.2);
     font-size:0.14rem;
     font-family:MicrosoftYaHei;
     font-weight:bold;
     color:rgba(74,134,255,1);
+}
+.personal-paper-title-right li:nth-child(1)::before{
+    width: 0.4rem;
+    height: 0.4rem;
+    content: "";
+    position: relative;
+    left: -0.4rem;
+    top: -0.02rem;
+    vertical-align: middle;
+    display: inline-block;
+    background: #FFF;
+    border-radius: 0.4rem;
 }
 .personal-paper-title-right li:nth-child(2){
     font-size:0.14rem;
