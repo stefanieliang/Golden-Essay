@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="20f86fd1-c3c0-4804-833f-255475a69914" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal/order-msg.html" beforeDir="false" afterPath="$PROJECT_DIR$/personal/order-msg.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal/order-file.html" beforeDir="false" afterPath="$PROJECT_DIR$/personal/order-file.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stylesheet/common/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheet/common/main.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -36,7 +36,7 @@
         <counts>
           <entry key="css" value="13" />
           <entry key="gif" value="1" />
-          <entry key="html" value="102" />
+          <entry key="html" value="104" />
           <entry key="jpg" value="10" />
           <entry key="js" value="21" />
           <entry key="json" value="3" />
@@ -47,7 +47,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="13" />
-          <entry key="HTML" value="102" />
+          <entry key="HTML" value="104" />
           <entry key="Image" value="46" />
           <entry key="JSON" value="3" />
           <entry key="JavaScript" value="21" />
@@ -56,8 +56,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="8351" />
-          <entry key="html" value="5206" />
+          <entry key="css" value="8418" />
+          <entry key="html" value="5244" />
           <entry key="js" value="528" />
           <entry key="json" value="104" />
           <entry key="scss" value="81" />
@@ -66,8 +66,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="8351" />
-          <entry key="HTML" value="5206" />
+          <entry key="CSS" value="8418" />
+          <entry key="HTML" value="5244" />
           <entry key="JSON" value="104" />
           <entry key="JavaScript" value="528" />
           <entry key="PLAIN_TEXT" value="30" />
@@ -78,20 +78,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/stylesheet/common/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="2497" column="17" selection-start-line="2497" selection-start-column="17" selection-end-line="2497" selection-end-column="17" />
+            <state relative-caret-position="317">
+              <caret line="2368" column="24" selection-start-line="2368" selection-start-column="24" selection-end-line="2368" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/personal/order-msg.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/personal/order-file.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="160" column="91" selection-start-line="160" selection-start-column="91" selection-end-line="160" selection-end-column="91" />
+            <state relative-caret-position="276">
+              <caret line="223" column="70" selection-start-line="223" selection-start-column="70" selection-end-line="223" selection-end-column="70" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -170,10 +170,10 @@
         <option value="$PROJECT_DIR$/personal/wallet-charge.html" />
         <option value="$PROJECT_DIR$/personal/wallet.html" />
         <option value="$PROJECT_DIR$/layui-v2.4.5/css/modules/layer/default/layer.css" />
-        <option value="$PROJECT_DIR$/personal/order-file.html" />
         <option value="$PROJECT_DIR$/personal/order-info.html" />
-        <option value="$PROJECT_DIR$/stylesheet/common/main.css" />
         <option value="$PROJECT_DIR$/personal/order-msg.html" />
+        <option value="$PROJECT_DIR$/personal/order-file.html" />
+        <option value="$PROJECT_DIR$/stylesheet/common/main.css" />
       </list>
     </option>
   </component>
@@ -208,17 +208,12 @@
             <path>
               <item name="GoldenEssay" type="b2602c69:ProjectViewProjectNode" />
               <item name="GoldenEssay" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="GoldenEssay-order" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GoldenEssay" type="b2602c69:ProjectViewProjectNode" />
               <item name="GoldenEssay" type="462c0819:PsiDirectoryNode" />
-              <item name="order" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GoldenEssay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GoldenEssay" type="462c0819:PsiDirectoryNode" />
-              <item name="proxyOrder" type="462c0819:PsiDirectoryNode" />
+              <item name="personal" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -281,7 +276,7 @@
       <workItem from="1548994635915" duration="22689000" />
       <workItem from="1549244049949" duration="396000" />
       <workItem from="1549594210336" duration="596000" />
-      <workItem from="1550130386703" duration="12932000" />
+      <workItem from="1550130386703" duration="14798000" />
     </task>
     <task id="LOCAL-00001" summary="service">
       <created>1546587052091</created>
@@ -353,15 +348,21 @@
       <option name="project" value="LOCAL" />
       <updated>1550136860961</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="2-14">
+      <created>1550212762621</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1550212762621</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="176541000" />
+    <option name="totallyTimeSpent" value="178407000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20045386" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -602,20 +603,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/personal/order-file.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="66" column="57" selection-start-line="66" selection-start-column="57" selection-end-line="66" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/personal/order-info.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="111" column="32" lean-forward="true" selection-start-line="111" selection-start-column="32" selection-end-line="111" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/proxyOrder/order.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="371">
@@ -644,20 +631,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheet/common/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="2497" column="17" selection-start-line="2497" selection-start-column="17" selection-end-line="2497" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/personal/order-msg.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="160" column="91" selection-start-line="160" selection-start-column="91" selection-end-line="160" selection-end-column="91" />
+        <state relative-caret-position="317">
+          <caret line="63" column="14" lean-forward="true" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/personal/order-info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="111" column="32" lean-forward="true" selection-start-line="111" selection-start-column="32" selection-end-line="111" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/personal/order-file.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="223" column="70" selection-start-line="223" selection-start-column="70" selection-end-line="223" selection-end-column="70" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheet/common/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="2368" column="24" selection-start-line="2368" selection-start-column="24" selection-end-line="2368" selection-end-column="24" />
         </state>
       </provider>
     </entry>
