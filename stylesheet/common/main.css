@@ -1147,8 +1147,7 @@
     top: -0.35rem;
     left: 0.1rem;
     height:0.2rem;
-    background:rgba(74,134,255,1);
-    opacity:0.12;
+    background: rgba(74,134,255,0.12);
     border-radius:0.05rem;
 }
 .personal-myinfo-left .layui-progress .layui-progress-bar{
@@ -2380,12 +2379,123 @@
 }
 .personal-msg-item{
     width:100%;
-    height:2.5rem;
     background:rgba(255,255,255,1);
     margin-bottom: 0.2rem;
+    padding: 0.4rem 0.3rem 0.3rem 0.3rem;
+}
+.personal-msg-item .ques{
+    padding-right: 0.3rem;
+    width: 100%;
+    display: flex;
+    padding-bottom: 0.3rem;
+}
+.personal-msg-item .ques .avatar{
+    width:0.4rem;
+    height:0.4rem;
+    margin-right: 0.2rem;
+    background:rgba(25,129,255,0.1);
+    border-radius:50%;
+}
+.personal-msg-item .ques .ques-content{
+    background:rgba(233,240,255,1);
+    border-radius:0.05rem;
+    font-size:0.12rem;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    text-align: left;
+    padding: 0.1rem 0.29rem 0.1rem 0.19rem;
+    color:rgba(102,102,102,1);
+    line-height:0.24rem;
+}
+.personal-msg-item .ques p{
+    font-size:0.12rem;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(187,187,187,1);
+    margin-top: 0.15rem;
+    margin-bottom: 0.3rem;
+}
+.personal-msg-item .ques p a {
+     font-size: 0.12rem;
+     font-family: MicrosoftYaHei;
+     font-weight: 400;
+     color: rgba(187, 187, 187, 1);
+}
+.personal-msg-item .ans{
+    margin-left: 0.6rem;
+    width: 100%;
+    display: flex;
+}
+.personal-msg-item .ans{
+    padding-right: 0.3rem;
+    width: 100%;
+    display: flex;
+}
+.personal-msg-item .ans .avatar{
+    width:0.4rem;
+    height:0.4rem;
+    margin-right: 0.2rem;
+    background:rgba(232,242,255,1);
+    border-radius:0.05rem;
+}
+.personal-msg-item .ans .ans-content{
+    background:rgba(233,240,255,1);
+    border-radius:0.05rem;
+    font-size:0.12rem;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    text-align: left;
+    padding: 0.1rem 0.29rem 0.1rem 0.19rem;
+    color:rgba(102,102,102,1);
+    line-height:0.24rem;
+}
+.personal-msg-item .ans section{
+    width: 100%;
+    margin-right: 0.3rem;
+}
+.personal-msg-item .ans p:nth-child(3){
+    font-size:0.12rem;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(187,187,187,1);
+    margin-top: 0.15rem;
+    margin-bottom: 0.3rem;
+}
+.personal-msg-item .ans p:nth-child(3) a {
+    font-size: 0.12rem;
+    font-family: MicrosoftYaHei;
+    font-weight: 400;
+    color: rgba(187, 187, 187, 1);
+}
+.personal-msg-item .ans p:nth-child(1){
+    font-size:0.14rem;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(74,134,255,1);
+    text-align: left;
+    margin-bottom: 0.14rem;
 }
 .send-msg{
     width:100%;
     height:1.5rem;
     background:rgba(255,255,255,1);
+    display: flex;
+    align-items: center;
+    padding: 0.3rem 0.5rem 0.3rem 0.3rem;
+}
+.send-msg textarea{
+    font-size:0.14rem;
+    font-family:MicrosoftYaHei;
+    width: 100%;
+    font-weight:400;
+    color:rgba(187,187,187,1);
+    border: 0;
+    resize: none;
+}
+.send-msg .send{
+    width:0.6rem;
+    height:0.6rem;
+    margin-left: 0.3rem;
+    background:rgba(233,240,255,1);
+    border-radius:50%;
 }
