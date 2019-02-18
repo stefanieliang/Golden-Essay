@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh-CN" style="height: 100%">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -24,55 +24,36 @@
     <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
 </head>
-<body>
-    <div class="login-container" style="height: auto">
-        <div class="login-main">
-            <ul class="top">
-                <li class="active"><a href="">登录</a></li>
-                <li><a href="">注册</a></li>
-            </ul>
-            <form action="" class="layui-form login-form show">
-                <div class="layui-form-item form-group">
-                    <div class="layui-input-block">
-                        <input type="text" name="title" id="exampleInputEmail1" placeholder="邮箱" lay-verify="title" autocomplete="off"  class="layui-input">
-                    </div>
-                </div>
-                <div class="layui-form-item form-group">
-                    <div class="layui-input-block">
-                        <input type="password" name="title" id="exampleInputPassword1" placeholder="密码" lay-verify="title" autocomplete="off"  class="layui-input">
-                    </div>
-                </div>
-                <div class="login-form-footer">
-                    <button type="submit" class="fl btn btn-active">登录</button>
-                    <a href="" class="fr">忘记密码？</a>
-                </div>
-            </form>
-            <form class="layui-form register-form hide">
-                <div class="layui-form-item form-group">
-                    <div class="layui-input-block">
-                        <input type="text" name="title" id="exampleInputEmail2" placeholder="邮箱" lay-verify="title" autocomplete="off"  class="layui-input">
-                    </div>
-                </div>
-                <div class="layui-form-item form-group">
-                    <div class="layui-input-block">
-                        <input type="password" name="title" id="exampleInputPassword2" placeholder="密码" lay-verify="title" autocomplete="off"  class="layui-input">
-                    </div>
-                </div>
-                <div class="login-form-footer">
-                    <button type="submit" class="fl btn btn-active">注册</button>
-                    <a href="" class="fr">已有账号</a>
-                </div>
-            </form>
-            <div class="footer">
-                <ul>
-                    <li class="left"></li>
-                    <li><span>其它方式登录</span></li>
-                    <li class="right"></li>
-                </ul>
-                <img src="images/google.png"/>
-            </div>
-        </div>
+<body style="height: 100%">
+<div style="height: 100%">
+    <div class="login-fl fl">
+        <p>Golden Essay</p>
+        <p>Let's Kick Now</p>
+        <p>返回首页</p>
     </div>
+    <div class="login-fr fr"></div>
+</div>
+<div class="login-form">
+    <div class="top">
+        <p class="title">LOG  IN</p>
+        <div></div>
+    </div>
+    <form action="">
+        <div class="email">
+            <input type="text" placeholder="邮箱">
+            <img src="images/login/email.png"/>
+        </div>
+        <div class="pwd">
+            <input type="password" placeholder="密码">
+            <img src="images/login/pwd.png"/>
+        </div>
+        <a class="login">登录</a>
+        <p>
+            <a href="" class="register fl">注册账号</a>
+            <a href="" class="forget-pwd fr">忘记密码？</a>
+        </p>
+    </form>
+</div>
 <!--<script src="javascript/common/viewport.js"></script>-->
 <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
 <script src="bootstrap-3.3.7/dist/js/bootstrap.js"></script>

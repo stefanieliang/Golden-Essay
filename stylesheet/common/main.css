@@ -2362,6 +2362,7 @@
     line-height: 0.4rem;
     background:rgba(74,134,255,1);
     border-radius:0.05rem;
+    cursor: pointer;
 }
 .download-area .download-area-edit .refund{
     width:1.2rem;
@@ -2369,6 +2370,70 @@
     line-height: 0.4rem;
     background:rgba(187,187,187,1);
     border-radius:0.05rem;
+    cursor: pointer;
+}
+.layer .layer-content{
+    margin: 0.3rem 0.4rem;
+}
+.layer .layer-content .tab-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.layer .layer-content .tab-area div{
+    cursor: pointer;
+    width:44%;
+    height:1rem;
+    line-height: 1rem;
+    text-align: center;
+    background:rgba(255,255,255,1);
+    border-radius:0.1rem;
+    font-size:0.16rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(51,51,51,1);
+}
+.layer .layer-content .tab-area div:hover,.layer .layer-content .tab-area div.active{
+    background:rgba(74,134,255,1);
+    color:rgba(255,255,255,1);
+}
+.layer .layer-content .tab-area img{
+    width: 0.14rem;
+    height: 0.14rem;
+    position: relative;
+    top: -0.3rem;
+}
+.layer .layer-content .checkbox-area{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0.48rem 0.1rem 0.12rem 0.1rem;
+}
+.layer .layer-content .checkbox-area .layui-form-checkbox{
+    width: 50%;
+    margin-bottom: 0.36rem;
+}
+#applyLayer .advice-area .layui-textarea{
+    background:rgba(255,255,255,1);
+    resize: none;
+    border-radius:0.1rem;
+}
+#refundLayer .raty-area{
+    margin-top: 0.36rem;
+    border-top: 0.01rem solid rgba(74,134,255,0.2);
+    padding-top: 0.5rem;
+}
+#refundLayer .raty-area>div{
+    margin-bottom: 0.42rem;
+}
+#refundLayer .raty-area span{
+    font-size:0.14rem;
+    margin-right: 0.3rem;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+}
+#refundLayer .raty-area #star1,#refundLayer .raty-area #star2{
+    display: inline-block;
 }
 .upload-item{
     width:100%;

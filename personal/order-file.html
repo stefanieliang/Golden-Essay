@@ -28,6 +28,7 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
     <script src="../bxslider/jquery.bxslider.min.js"></script>
     <script src="../layui-v2.4.5/layui.js"></script>
+    <script src="../raty/jquery.raty.js"></script>
 </head>
 <body style="background-color: #F7F8FA">
 <div>
@@ -64,7 +65,7 @@
         </div>
     </div>
     <div class="personal-container">
-        <div class="personal-sidebar" style="height: 10.2rem;">
+        <div class="personal-sidebar" style="height: 10.4rem;">
             <ul style="overflow: hidden;">
                 <li>
                     <a href="">
@@ -222,8 +223,12 @@
                                 </tr>
                             </table>
                             <div class="download-area-edit flex-center">
-                                <div class="apply">申请</div>
-                                <div class="refund">退款</div>
+                                <div class="apply" id="apply" data-method="offset" data-type="auto" data-open="applyLayer" data-title="申请">
+                                    申请
+                                </div>
+                                <div class="refund" id="refund" data-method="offset" data-type="auto" data-open="refundLayer" data-title="退款">
+                                    退款
+                                </div>
                             </div>
                         </div>
                         <div class="personal-order-content-right fr upload-area">
@@ -255,112 +260,69 @@
         </div>
     </div>
 </div>
-<div id="addPageLayer" hidden>
-    <div>选择您需要增加的页数</div>
-    <div>
-        我需要&nbsp;&nbsp;<span id="minusPage">-</span><span id="pageNum">5</span><span id="plusPage">+</span>&nbsp;&nbsp;页
+<div class="layer" id="applyLayer" hidden>
+    <div class="layer-content">
+        <div class="tab-area">
+            <div class="active" id="applyOther">申请其他写手<img src="../images/personal/ques-mark-2.png"/></div>
+            <div id="applyEdit">申请修改<img src="../images/personal/ques-mark-1.png"/></div>
+        </div>
+        <form class="layui-form" action="">
+            <div class="checkbox-area">
+                <input type="checkbox" name="" title="来源" lay-skin="primary" checked>
+                <input type="checkbox" name="" title="语法" lay-skin="primary">
+                <input type="checkbox" name="" title="格式" lay-skin="primary" checked>
+                <input type="checkbox" name="" title="未遵循说明" lay-skin="primary">
+                <input type="checkbox" name="" title="其他" lay-skin="primary" checked>
+            </div>
+            <div class="advice-area">
+                <textarea name="" required lay-verify="required" placeholder="请在这里注明您的要求" class="layui-textarea"></textarea>
+            </div>
+        </form>
     </div>
 </div>
-<div id="pptLayer" hidden>
-    <div>选择您需要的幻灯片页数</div>
-    <div>
-        我需要&nbsp;&nbsp;<span id="minusPPT">-</span><span id="pptNum">5</span><span id="plusPPT">+</span>&nbsp;&nbsp;页
+<div class="layer" id="refundLayer" hidden>
+    <div class="layer-content">
+        <div class="tab-area">
+            <div class="active" id="refundPartial">全额退款<img src="../images/personal/ques-mark-2.png"/></div>
+            <div id="refundAll">部分退款<img src="../images/personal/ques-mark-1.png"/></div>
+        </div>
+        <form class="layui-form" action="">
+            <div class="checkbox-area">
+                <input type="checkbox" name="" title="来源" lay-skin="primary" checked>
+                <input type="checkbox" name="" title="语法" lay-skin="primary">
+                <input type="checkbox" name="" title="格式" lay-skin="primary" checked>
+                <input type="checkbox" name="" title="未遵循说明" lay-skin="primary">
+                <input type="checkbox" name="" title="其他" lay-skin="primary" checked>
+            </div>
+            <div class="raty-area">
+                <div>
+                    <span>评价论文服务</span><div id="star1"></div>
+                </div>
+                <div>
+                    <span>评价团队服务</span><div id="star2"></div>
+                </div>
+            </div>
+        </form>
     </div>
-</div>
-<div id="tableLayer" hidden>
-    <div>添加额外图表或表格到您的订单中</div>
-    <ul>
-        <a href="#"><li><img src="../images/personal/add-table.png"/>添加表格</li></a>
-        <a href="#"><li><img src="../images/personal/add-chart.png"/>添加图表</li></a>
-    </ul>
-</div>
-<div id="cutTimeLayer" hidden>
-    <div style="height: 0.8rem;line-height: 0.4rem;">
-        一般写1页大约需要1个小时。 我们建议您根据所需的页数来更改成您订单需要的时间。
-    </div>
-    <ul>
-        <a href="#"><li>8小时</li></a>
-        <a href="#"><li>24小时</li></a>
-        <a href="#"><li>48小时</li></a>
-        <a href="#"><li>3天</li></a>
-        <a href="#"><li>5天</li></a>
-        <a href="#"><li>7天</li></a>
-    </ul>
 </div>
 <script>
-    $("#showPayRecords").on("click",function () {
-        $("#showPayRecords").addClass("active");
-        $("#showOnSaleList").removeClass("active");
-        $("#payRecords").show();
-        $("#onSaleList").hide();
+    $('#star1').raty({ score: 4 });
+    $('#star2').raty({ score: 3 });
+</script>
+<script>
+    $("#applyOther").mouseover(function () {
+        $("#applyOther").addClass("active");
+        $("#applyOther img").attr("src","../images/personal/ques-mark-2.png");
+    }).mouseleave(function () {
+        $("#applyOther").removeClass("active");
+        $("#applyOther img").attr("src","../images/personal/ques-mark-1.png");
     });
-    $("#showOnSaleList").on("click",function () {
-        $("#showPayRecords").removeClass("active");
-        $("#showOnSaleList").addClass("active");
-        $("#payRecords").hide();
-        $("#onSaleList").show();
-    });
-    $("#addPage").mouseover(function () {
-        $("#addPage").css("display","none");
-        $("#addPageHover").css("display","block");
-    });
-    $("#addPageHover").mouseleave(function () {
-        $("#addPage").css("display","block");
-        $("#addPageHover").css("display","none");
-    });
-    $("#ppt").mouseover(function () {
-        $("#ppt").css("display","none");
-        $("#pptHover").css("display","block");
-    });
-    $("#pptHover").mouseleave(function () {
-        $("#ppt").css("display","block");
-        $("#pptHover").css("display","none");
-    });
-    $("#table").mouseover(function () {
-        $("#table").css("display","none");
-        $("#tableHover").css("display","block");
-    });
-    $("#tableHover").mouseleave(function () {
-        $("#table").css("display","block");
-        $("#tableHover").css("display","none");
-    });
-    $("#cutTime").mouseover(function () {
-        $("#cutTime").css("display","none");
-        $("#cutTimeHover").css("display","block");
-    });
-    $("#cutTimeHover").mouseleave(function () {
-        $("#cutTime").css("display","block");
-        $("#cutTimeHover").css("display","none");
-    });
-    //增加页数
-    $("#minusPage").on("click",function () {
-        //减少页数
-        var pageNum = $("#pageNum")[0].innerText;
-        if(pageNum>0){
-            pageNum--;
-            $("#pageNum")[0].innerText = pageNum;
-        }
-    });
-    $("#plusPage").on("click",function () {
-        //增加页数
-        var pageNum = $("#pageNum")[0].innerText;
-        pageNum++;
-        $("#pageNum")[0].innerText = pageNum;
-    });
-    //增加ppt
-    $("#minusPPT").on("click",function () {
-        //减少页数
-        var pptNum = $("#pptNum")[0].innerText;
-        if(pptNum>0){
-            pptNum--;
-            $("#pptNum")[0].innerText = pptNum;
-        }
-    });
-    $("#plusPPT").on("click",function () {
-        //增加页数
-        var pptNum = $("#pptNum")[0].innerText;
-        pptNum++;
-        $("#pptNum")[0].innerText = pptNum;
+    $("#applyEdit").mouseover(function () {
+        $("#applyEdit").addClass("active");
+        $("#applyEdit img").attr("src","../images/personal/ques-mark-2.png");
+    }).mouseleave(function () {
+        $("#applyEdit").removeClass("active");
+        $("#applyEdit img").attr("src","../images/personal/ques-mark-1.png");
     });
 </script>
 <script>
@@ -380,7 +342,7 @@
                     , offset: type //具体配置参考：http://www.layui.com/doc/modules/layer.html#offset
                     , id: 'layerDemo' + type //防止重复弹出
                     , content: $("#"+open)
-                    ,area: '6rem'
+                    , area: '4.4rem'
                     , btn: '确定'
                     , btnAlign: 'r' //按钮居中
                     , shade: 0 //不显示遮罩
@@ -391,7 +353,7 @@
             }
         };
 
-        $('.extra-service .back').on('click', function(){
+        $('.download-area-edit div').on('click', function(){
             var othis = $(this), method = othis.data('method');
             console.log(othis);
             active[method] ? active[method].call(this, othis) : '';
