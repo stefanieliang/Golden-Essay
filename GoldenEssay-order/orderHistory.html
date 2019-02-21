@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="zh-CN" style="height: 100%">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+
+    <title>Order History</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="bootstrap-3.3.7/dist/css/bootstrap.css">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link rel="stylesheet" href="stylesheet/common/ie10-viewport-bug-workaround.css">
+    <link rel="stylesheet" href="stylesheet/common/reset.css">
+    <link rel="stylesheet" href="layui-v2.4.5/css/layui.css">
+    <script src="javascript/common/viewport.js"></script>
+    <link rel="stylesheet" href="stylesheet/common/main.css">
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+    <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+    <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+    <script src="layui-v2.4.5/layui.js"></script>
+</head>
+<body style="height: 100%">
+<div class="side-bar fl">
+    <ul>
+        <a href=""><li>Home<span>12</span></li></a>
+        <a href=""><li>Active<span>12</span></li></a>
+        <a href=""><li>Completed</li></a>
+        <a href=""><li>Payment</li></a>
+        <a href=""><li class="active">Order History</li></a>
+        <a href=""><li>Settings<img src="images/icon-right.png"/></li></a>
+        <ul>
+            <a href=""><li>Writer Management</li></a>
+            <a href=""><li>Price Management</li></a>
+            <a href=""><li>Team</li></a>
+        </ul>
+    </ul>
+</div>
+<div class="content fr">
+    <div class="content-nav">
+        <ul>
+            <li class="content-nav-item">
+                <a href="">
+                    <img src="../images/personal/customService.png">
+                </a>
+            </li>
+            <li class="content-nav-item">
+                <a href="javascript:;">
+                    8925711@qq.com
+                    <img src="../images/personal/dropdown.png" style="margin-left: 0.05rem;width: 0.07rem;height: 0.04rem"/>
+                </a>
+                <dl class="layui-nav-child"> <!-- 二级菜单 -->
+                    <dd><a href="">移动模块</a></dd>
+                    <dd><a href="">后台模版</a></dd>
+                    <dd><a href="">电商平台</a></dd>
+                </dl>
+            </li>
+            <img src="//t.cn/RCzsdCq">
+        </ul>
+    </div>
+    <div class="content-main team">
+        <div class="search-area">
+            <div class="fl">
+                <form action="" class="layui-form">
+                    <div class="layui-form-item">
+                        <div class="layui-inline">
+                            <label class="layui-form-label">Type Selection</label>
+                            <div class="layui-input-inline">
+                                <select name="quiz3">
+                                    <option value=""></option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="layui-inline">
+                            <label class="layui-form-label">Pages</label>
+                            <div class="layui-input-inline">
+                                <select name="quiz3">
+                                    <option value=""></option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="layui-inline">
+                            <label class="layui-form-label">Screening time</label>
+                            <div class="layui-input-inline">
+                                <input type="text" class="layui-input" id="test10" placeholder=" - ">
+                            </div>
+                        </div>
+                        <div class="layui-inline">
+                            <label class="layui-form-label">Search Order Number</label>
+                            <div class="layui-input-inline">
+                                <input type="tel" name="phone" lay-verify="required|phone" autocomplete="off" class="layui-input">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="fr">
+                <span id="delete">Delete Writer</span>
+            </div>
+        </div>
+        <div class="content-main-container">
+            <table width="100%" style="border-collapse:separate; border-spacing:0px 10px;text-align: center">
+                <thead>
+                    <tr>
+                        <th width="5%" class="text-align-center"> </th>
+                        <th width="10%" class="text-align-center">Order ID</th>
+                        <th width="10%" class="text-align-center">Type</th>
+                        <th width="15%" class="text-align-center"> Begin Time</th>
+                        <th width="15%" class="text-align-center">End Time</th>
+                        <th width="15%" class="text-align-center">Status</th>
+                        <th width="15%" class="text-align-center">Pages</th>
+                        <th width="15%" class="text-align-center">Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="checkbox" name="" title=" " lay-skin="primary" checked></td>
+                        <td>#233333</td>
+                        <td>Dissertation</td>
+                        <td>
+                            Jan 15,2019 3:28 PM
+                        </td>
+                        <td>
+                            Jan 15,2019 3:28 PM
+                        </td>
+                        <td>Completed</td>
+                        <td>4</td>
+                        <td class="order-history-price">$ 493</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="" title=" " lay-skin="primary" checked></td>
+                        <td>#233333</td>
+                        <td>Dissertation</td>
+                        <td>
+                            Jan 15,2019 3:28 PM
+                        </td>
+                        <td>
+                            Jan 15,2019 3:28 PM
+                        </td>
+                        <td>Completed</td>
+                        <td>4</td>
+                        <td class="order-history-price">$ 493</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="" title=" " lay-skin="primary" checked></td>
+                        <td>#233333</td>
+                        <td>Dissertation</td>
+                        <td>
+                            Jan 15,2019 3:28 PM
+                        </td>
+                        <td>
+                            Jan 15,2019 3:28 PM
+                        </td>
+                        <td>Completed</td>
+                        <td>4</td>
+                        <td class="order-history-price">$ 493</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="" title=" " lay-skin="primary" checked></td>
+                        <td>#233333</td>
+                        <td>Dissertation</td>
+                        <td>
+                            Jan 15,2019 3:28 PM
+                        </td>
+                        <td>
+                            Jan 15,2019 3:28 PM
+                        </td>
+                        <td>Completed</td>
+                        <td>4</td>
+                        <td class="order-history-price">$ 493</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="" title=" " lay-skin="primary" checked></td>
+                        <td>#233333</td>
+                        <td>Dissertation</td>
+                        <td>
+                            Jan 15,2019 3:28 PM
+                        </td>
+                        <td>
+                            Jan 15,2019 3:28 PM
+                        </td>
+                        <td>Completed</td>
+                        <td>4</td>
+                        <td class="order-history-price">$ 493</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="" title=" " lay-skin="primary" checked></td>
+                        <td>#233333</td>
+                        <td>Dissertation</td>
+                        <td>
+                            Jan 15,2019 3:28 PM
+                        </td>
+                        <td>
+                            Jan 15,2019 3:28 PM
+                        </td>
+                        <td>Completed</td>
+                        <td>4</td>
+                        <td class="order-history-price">$ 493</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="" title=" " lay-skin="primary" checked></td>
+                        <td>#233333</td>
+                        <td>Dissertation</td>
+                        <td>
+                            Jan 15,2019 3:28 PM
+                        </td>
+                        <td>
+                            Jan 15,2019 3:28 PM
+                        </td>
+                        <td>Completed</td>
+                        <td>4</td>
+                        <td class="order-history-price">$ 493</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<script>
+    layui.use(['form', 'layedit', 'laydate','upload'], function() {
+        var form = layui.form
+            , layer = layui.layer
+            , layedit = layui.layedit
+            , laydate = layui.laydate;
+        form.render('select');
+        //日期时间范围
+        laydate.render({
+            elem: '#test10'
+            ,type: 'datetime'
+            ,range: true
+        });
+    });
+</script>
+<!--<script src="javascript/common/viewport.js"></script>-->
+<!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+<script src="bootstrap-3.3.7/dist/js/bootstrap.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="javascript/common/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>

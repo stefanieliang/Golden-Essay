@@ -223,7 +223,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
+    /*align-items: center;*/
 }
 .home-content-main-left{
     width: 50%;
@@ -575,6 +575,7 @@
     background: rgba(233,240,255,1);
     border-radius: 0.05rem;
     border: 0;
+    height: 0.36rem;
 }
 .layui-form-selected dl {
     font-size: 0.14rem;
@@ -584,6 +585,7 @@
 }
 .panel-content .layui-form .layui-form-item .layui-input-inline {
     width: 80%;
+    height: 0.36rem;
 }
 .active-content-main-right .g-panel{
     border-bottom: 0.05rem solid #FAFAFA;
@@ -622,6 +624,20 @@
     font-family:MicrosoftYaHei;
     font-weight:bold;
     color:rgba(25,129,255,1);
+}
+/*settings*/
+.content-main-4{
+    padding: 0.4rem;
+    margin-right: 0.3rem;
+    height: 9rem;
+    background: rgba(255,255,255,1);
+    width: 100%;
+}
+.content-main .content-main-4:last-child{
+    margin-right: 0;
+}
+.content-main .content-main-4{
+    padding: 0.5rem;
 }
 /*settings--price*/
 .content-main-3{
@@ -687,6 +703,10 @@
     line-height: 1rem;
     background:rgba(255,255,255,1);
     margin-bottom: 0.3rem;
+    padding: 0.05rem 0.3rem;
+}
+.search-area .layui-form-item{
+    margin-bottom: 0;
 }
 .writer .content-main-6{
     width: 49%;
@@ -747,4 +767,163 @@
 }
 .writer .search-area{
     background: rgba(255,255,255,0);
+}
+/*team*/
+.search-area .layui-form .layui-form-label {
+    font-size: 0.12rem;
+    font-family: MicrosoftYaHei;
+    font-weight: 400;
+    color: rgba(51,51,51,1);
+    padding: 0;
+    float: none;
+    margin-bottom: 0.1rem;
+    text-align: left;
+    vertical-align: unset;
+}
+.search-area .fr span{
+    border-radius:0.18rem;
+    font-size:0.14rem;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    padding: 0.09rem 0.18rem;
+}
+.search-area .fr #add{
+    background:rgba(25,129,255,1);
+    margin-right: 0.4rem;
+}
+.search-area .fr #delete{
+    background:rgba(255,90,90,1);
+}
+.team thead th{
+    font-size:0.12rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(153,153,153,1);
+}
+.team .content-main-container{
+    width:100%;
+    background:rgba(255,255,255,1);
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+}
+.team .content-main-container tbody tr{
+    background:rgba(233,240,255,1);
+    border-radius:0.05rem;
+}
+.team .content-main-container tbody td{
+    font-size:0.14rem;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+.text-align-center{
+    text-align: center;
+}
+.team .content-main-container tbody .opera span{
+    border-radius:0.15rem;
+    font-size:0.12rem;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    padding: 0.04rem 0.15rem;
+}
+.team .content-main-container tbody .opera span:nth-child(1){
+    background:rgba(81,192,59,0.6);
+    margin-right: 0.4rem;
+}
+.team .content-main-container tbody .opera span:nth-child(2){
+    background:rgba(25,129,255,0.6);
+    margin-right: 0.4rem;
+}
+.team .content-main-container tbody .opera span:nth-child(3){
+    background:rgba(248,120,50,0.6);
+    margin-right: 0.4rem;
+}
+/*order-history*/
+.order-history-price{
+    color:rgba(255,110,40,1)!important;
+    font-weight:400;
+}
+/*payment*/
+.payment .content-main-4{
+    width: 100%;
+    margin-right: 0.3rem;
+}
+.payment .content-main-4:last-child{
+    margin-right: 0;
+}
+.payment .panel-title .fr{
+    font-size:0.2rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(25,129,255,1);
+}
+.payment .panel-title .delete{
+    font-size:0.14rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(255,62,62,1);
+}
+.payment thead th {
+    font-size: 0.12rem;
+    font-family: MicrosoftYaHei;
+    font-weight: bold;
+    color: rgba(153,153,153,1);
+}
+.payment .content-main-container tbody tr {
+    background: rgba(233,240,255,1);
+    border-radius: 0.05rem;
+}
+.payment .content-main-container tbody td {
+    font-size: 0.14rem;
+    font-family: MicrosoftYaHei;
+    font-weight: 400;
+    color: rgba(51,51,51,1);
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+.payment .payment-price-item{
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    padding: 0.3rem 0.4rem;
+    width:4.3rem;
+    background:rgba(233,240,255,1);
+    border-radius:0.05rem;
+}
+.payment .payment-price-item p:nth-child(1){
+    font-size:0.16rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(25,129,255,1);
+    margin-bottom: 0.4rem;
+}
+.payment .payment-price-item p:nth-child(2){
+    font-size:0.24rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(51,51,51,1);
+    margin-bottom: 0.4rem;
+}
+.payment .payment-price-item p:nth-child(3){
+    font-size:0.14rem;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(102,102,102,1);
+}
+.payment .payment-minus{
+    text-align: center;
+    width:0.02rem;
+    height:0.2rem;
+    background:rgba(133,145,159,1);
+    margin: 0 auto;
+}
+.payment .payment-equal{
+    width: 0.06rem;
+    height:0.2rem;
+    border-left: 0.02rem solid rgba(133,145,159,1);
+    border-right: 0.02rem solid rgba(133,145,159,1);
+    margin: 0 auto;
 }
