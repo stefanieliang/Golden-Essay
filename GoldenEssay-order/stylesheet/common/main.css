@@ -639,6 +639,88 @@
 .content-main .content-main-4{
     padding: 0.5rem;
 }
+.zone-setting .zone-setting-title{
+    text-align: center;
+    font-size:0.18rem;
+    font-family:MicrosoftYaHei-Bold;
+    font-weight:bold;
+    color:rgba(51,51,51,1);
+    margin-bottom: 0.35rem;
+}
+.zone-setting .layui-input-block {
+    width: 100%;
+    margin-left: 0;
+}
+.zone-setting .layui-form-select dl dt, .layui-form-select dl dd {
+    height: 0.36rem;
+    line-height: 0.36rem;
+}
+.payment-setting img.fl{
+    width: 0.52rem;
+    height: 0.46rem;
+    margin-right: 0.5rem;
+}
+.payment-setting .payment-setting-content-title,.pwd-setting .pwd-setting-title{
+    font-size:0.16rem;
+    font-family:MicrosoftYaHei-Bold;
+    font-weight:bold;
+    color:rgba(51,51,51,1);
+    margin-bottom: 0.18rem;
+}
+.payment-setting .payment-setting-content-main div{
+    text-align: center;
+    display: inline-block;
+    width:1rem;
+    height:1rem;
+    background:rgba(233,240,255,1);
+    border-radius:0.05rem;
+    font-size:0.16rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(51,51,51,1);
+    line-height:1rem;
+    margin-right: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+.pwd-setting img.fl{
+    width: 0.38rem;
+    height: 0.48rem;
+    margin-right: 0.5rem;
+}
+.pwd-setting .pwd-setting-content .qq{
+    font-size:0.12rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(102,102,102,1);
+    margin-bottom: 0.3rem;
+}
+.pwd-setting .layui-form .layui-form-label {
+    font-size: 0.16rem;
+    font-family: MicrosoftYaHei;
+    font-weight: 400;
+    color: rgba(51,51,51,1);
+    padding: 0;
+    float: none;
+    margin-bottom: 0.1rem;
+    text-align: left;
+    vertical-align: unset;
+}
+.pwd-setting .layui-input-block{
+    margin-left: 0;
+}
+.settings .submit{
+    cursor: pointer;
+    width:0.8rem;
+    height:0.36rem;
+    line-height: 0.36rem;
+    text-align: center;
+    background:rgba(74,134,255,1);
+    border-radius:0.05rem;
+    font-size:0.14rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(255,255,255,1);
+}
 /*settings--price*/
 .content-main-3{
     padding: 0.4rem;

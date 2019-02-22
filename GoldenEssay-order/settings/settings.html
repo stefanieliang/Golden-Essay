@@ -24,6 +24,7 @@
     <![endif]-->
     <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+    <script src="../layui-v2.4.5/layui.js"></script>
 </head>
 <body style="height: 100%">
 <div class="side-bar fl">
@@ -65,17 +66,94 @@
     </div>
     <div class="content-main flex-row settings">
         <div class="content-main-4 zone-setting">
-
+            <div class="zone-setting-title">Time Zone Selection</div>
+            <div class="zone-setting-content">
+                <form class="layui-form" action="">
+                    <div class="layui-form-item">
+                        <div class="layui-input-block">
+                            <select name="" lay-verify="required">
+                                <option value="">UTC+08:00   BeiJing,ChongQing</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <div class="layui-input-block">
+                            <select name="" lay-verify="required">
+                                <option value="">UTC+08:00   Ulan Bator</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <div class="layui-input-block">
+                            <select name="" lay-verify="required">
+                                <option value="">UTC+10:00   Canberra, Melbourne, Sydney</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <div class="layui-input-block">
+                            <select name="" lay-verify="required">
+                                <option value="">UTC+11:00   Chokurdah</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <div class="layui-input-block">
+                            <select name="" lay-verify="required">
+                                <option value="">UTC+12:00   Wellington, Auckland</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="submit">Submit</div>
+                </form>
+            </div>
         </div>
         <div class="content-main-4 payment-setting">
-
+            <img class="fl" src="../images/settings/setting-payment.png"/>
+            <div class="payment-setting-content fl">
+                <p class="payment-setting-content-title">Payment Batch Settings</p>
+                <div class="payment-setting-content-main">
+                    <div>10 times</div>
+                    <div>20 times</div>
+                    <div>10 times</div>
+                    <div>20 times</div>
+                </div>
+                <div class="submit">Submit</div>
+            </div>
         </div>
         <div class="content-main-4 pwd-setting">
-
+            <img class="fl" src="../images/settings/setting-pwd.png"/>
+            <div class="pwd-setting-content fl">
+                <p class="pwd-setting-title">Change Password</p>
+                <p class="qq">512345678@qq.com</p>
+                <form class="layui-form" action="">
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">Your New Password</label>
+                        <div class="layui-input-block">
+                            <input type="" name="phone" lay-verify="required" autocomplete="off" class="layui-input">
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">Your Password Typing Again</label>
+                        <div class="layui-input-block">
+                            <input type="" name="phone" lay-verify="required" autocomplete="off" class="layui-input">
+                        </div>
+                    </div>
+                    <div class="submit">Submit</div>
+                </form>
+            </div>
         </div>
     </div>
 </div>
-<script src="../layui-v2.4.5/layui.js"></script>
+<script>
+    layui.use(['form', 'layedit', 'laydate','upload'], function() {
+        var form = layui.form
+            , layer = layui.layer
+            , layedit = layui.layedit
+            , laydate = layui.laydate;
+        form.render();
+    });
+</script>
 <!--<script src="javascript/common/viewport.js"></script>-->
 <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
 <script src="../bootstrap-3.3.7/dist/js/bootstrap.js"></script>
