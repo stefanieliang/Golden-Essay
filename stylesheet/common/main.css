@@ -194,31 +194,9 @@
     height: 0.5rem;
 }
 .index-container-nav-left .logo{
-    width: 0.5rem;
-    height: 0.5rem;
+    width: 1.81rem;
+    height: 0.52rem;
     float: left;
-}
-.index-container-nav-left div{
-    float: left;
-    margin-top: 0.1rem;
-    margin-left: 0.19rem;
-    /*width: 1.11rem;*/
-    height: 0.36rem;
-}
-.index-container-nav-left div p:nth-child(1){
-    height: 0.18rem;
-    font-size:0.16rem;
-    font-family:MicrosoftYaHei-Bold;
-    font-weight:bold;
-    color:rgba(102,102,102,1);
-}
-.index-container-nav-left div p:nth-child(2){
-    height: 0.12rem;
-    font-size:0.12rem;
-    font-family:MicrosoftYaHei;
-    font-weight:bold;
-    color:rgba(254,179,0,1);
-    line-height: 0.32rem;
 }
 .index-container-nav-right li{
     float: left;
@@ -1023,8 +1001,8 @@
     padding: 0.19rem 0.21rem 0 0;
 }
 .personal-header-container-left .logo{
-    width: 0.5rem;
-    height: 0.5rem;
+    width: 1.81rem;
+    height: 0.52rem;
     float: left;
 }
 .personal-header-container-left div{
